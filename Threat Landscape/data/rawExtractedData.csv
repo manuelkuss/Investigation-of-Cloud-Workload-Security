@@ -1,0 +1,723 @@
+,,"Raw extracted data",,,,,,,,,,,,,,,,"Cleaned/synthesised data",,,,,,,
+"ExtractedObjectId","SourceType","Source","raw_Object","raw_CategoryofObjects","raw_IsThreat","raw_IsAttack","raw_IsVulnerability","raw_WideSecurityRelatedTerm","raw_CIAField","raw_IaaS","raw_PaaS","raw_SaaS","raw_CloudComponent","raw_Rank","raw_Comment","raw_MentionedSourceOfInformation (other than literature)","raw_Reference (C - chapter, P - page)","edited_Object","edited_IsConcern","edited_IsThreat","edited_IsAttack","edited_IsVulnerability","edited_ForCSPExclusively","NumberAddedToThreatsTable","NumberAddedToConcernsTable"
+1,"Publication","Marinescu2023","Security",,,,,"Challenge",,,,,,,"Challenge to software developers and cloud users",,"C 2.10","Security","TRUE",,,,,,1
+2,"Publication","Marinescu2023","Compliance",,,,,"Challenge",,,,,,,"Challenge to software developers and cloud users",,"C 2.10","Non-compliance and fines","TRUE",,,,,,1
+3,"Publication","Marinescu2023","Managing costs",,,,,"Challenge",,,,,,,"Challenge to software developers and cloud users",,"C 2.10","Managing costs","TRUE",,,,,,1
+4,"Publication","Marinescu2023","Lack of expertise",,,,,"Challenge",,,,,,,"Challenge to software developers and cloud users",,"C 2.10","Lack of expertise","TRUE",,,,,,1
+5,"Publication","Marinescu2023","Security threat",,,,,"Concern",,,,,,,"Main user concern","Survey of user experience","C 2.10","Security","TRUE",,,,,,1
+6,"Publication","Marinescu2023","Dependence on fast internet connections",,,,,"Concern",,,,,,,"Main user concern","Survey of user experience","C 2.10","Dependence on fast internet connections","TRUE",,,,,,1
+7,"Publication","Marinescu2023","Forced version updates",,,,,"Concern",,,,,,,"Main user concern","Survey of user experience","C 2.10","Forced version updates","TRUE",,,,,,1
+8,"Publication","Marinescu2023","Data ownership ",,,,,"Concern",,,,,,,"Main user concern","Survey of user experience","C 2.10","Data ownership ","TRUE",,,,,,1
+9,"Publication","Marinescu2023","User behavior monitoring",,,,,"Concern",,,,,,,"Main user concern","Survey of user experience","C 2.10","User behavior monitoring","TRUE",,,,,,1
+10,"Publication","Marinescu2023","Abuse and villanious use of the cloud",,,,,"Concern",,,,,,,,"Survey of user experience","C 2.10","Using the cloud to host attacks (services, ressources, ...)","",TRUE,,,TRUE,,
+11,"Publication","Marinescu2023","APIs that are not fully secure",,,,,"Concern",,,,,,,,"Survey of user experience","C 2.10","Insecure interfaces and APIs","",TRUE,,TRUE,,1,
+12,"Publication","Marinescu2023","Malicious insiders",,,,,"Concern",,,,,,,,"Survey of user experience","C 2.10","Malicious insider attack","",TRUE,,,,1,
+13,"Publication","Marinescu2023","Account hijacking ",,,,,"Concern",,,,,,,,"Survey of user experience","C 2.10","Account hijacking / compromised accounts","",TRUE,TRUE,,,1,
+14,"Publication","Marinescu2023","Data leaks",,,,,"Concern",,,,,,,,"Survey of user experience","C 2.10","Data leakage/disclosure","TRUE",,,,,,1
+15,"Publication","Marinescu2023","Issues related to shared resources",,,,,"Concern",,,,,,,,"Survey of user experience","C 2.10","Multitenancy / Shared technology","",TRUE,,,,1,
+16,"Publication","Marinescu2023","Identity theft and privacy",,,,,"Concern",,,,,,"Major concern",,"Survey of user experience","C 2.10","Identity theft","",TRUE,,,,1,
+17,"Publication","Marinescu2023","Availability",,,,,"Concern",,,,,,,,"Survey of user experience","C 2.10","(Data) Availability","TRUE",,,,,,1
+18,"Publication","Marinescu2023","Liability",,,,,"Concern",,,,,,,,"Survey of user experience","C 2.10","Liability","TRUE",,,,,,1
+19,"Publication","Marinescu2023","Data ownership ",,,,,"Concern",,,,,,,,"Survey of user experience","C 2.10","Data ownership ","TRUE",,,,,,1
+20,"Publication","Marinescu2023","Copyright",,,,,"Concern",,,,,,,,"Survey of user experience","C 2.10","Copyright","TRUE",,,,,,1
+21,"Publication","Marinescu2023","Potential loss of control/ownership of data",,,,,"Concern",,,,,,,,"Concerns identified by NIST working group","C 2.10","Potential loss of control/ownership of data","TRUE",,,,,,1
+22,"Publication","Marinescu2023","Data integration, privacy enforcement, data encryption",,,,,"Concern",,,,,,,,"Concerns identified by NIST working group","C 2.10","Data integration, privacy enforcement, data encryption","TRUE",,,,,,1
+23,"Publication","Marinescu2023","Data remanence after de-provisioning",,,,,"Concern",,,,,,,,"Concerns identified by NIST working group","C 2.10","Data remanence after de-provisioning","TRUE",,,,,,1
+24,"Publication","Marinescu2023","Multi-tenant data isolation",,,,,"Concern",,,,,,,,"Concerns identified by NIST working group","C 2.10","Multi-tenant environment / data isolation","TRUE",,,,,,1
+25,"Publication","Marinescu2023","Data location requirements within national borders",,,,,"Concern",,,,,,,,"Concerns identified by NIST working group","C 2.10","Data location","TRUE",,,,,,1
+26,"Publication","Marinescu2023","Hypervisor security",,,,,"Concern",,,,,,,,"Concerns identified by NIST working group","C 2.10","Virtualization / Hypervisor security","TRUE",,,,,,1
+27,"Publication","Marinescu2023","Auditing of data-integrity protection",,,,,"Concern",,,,,,,,"Concerns identified by NIST working group","C 2.10","Auditing of data-integrity protection","TRUE",,,,,,1
+28,"Publication","Marinescu2023","verification of subscriber policies through provider controls",,,,,"Concern",,,,,,,,"Concerns identified by NIST working group","C 2.10","Verification of subscriber policies through provider controls","TRUE",,,,,,1
+29,"Publication","Marinescu2023","Certification/accreditation requirements for a given cloud service",,,,,"Concern",,,,,,,,"Concerns identified by NIST working group","C 2.10","Certification/accreditation requirements for a given cloud service","TRUE",,,,,,1
+30,"Publication","Marinescu2023","Services are vulnerable to DoS attacks",,,,,"Challenge",,,,1,,,,,"C 2.12, P 51","DoS/DDoS attack","",TRUE,TRUE,,,1,
+31,"Publication","Marinescu2023","Malicious insiders",,,,,"Challenge",,,,1,,,,,"C 2.12, P 51","Malicious insider attack","",TRUE,TRUE,,,1,
+32,"Publication","Marinescu2023","Resources serve as the host to initiate attacks against networking and computing infrastructure",,,,,"Challenge",,1,,,,,,,"C 2.12, P 51","Using the cloud to host attacks (services, ressources, ...)","",TRUE,,,TRUE,,
+33,"Publication","Marinescu2023","Virtualization",,,,,"Challenge",,,,,,"Major challenge","Exposes  the system to additional sources of attacks",,"C 2.12, P 51","Virtualization / Hypervisor security","TRUE",,,,,,1
+34,"Publication","Marinescu2023","Cloud resource management",,,,,"Challenge",,,,,,"Major challenge",,,"C 2.12, P 51","Cloud resource management","TRUE",,,,,,1
+35,"Publication","Marinescu2023","Vendor lockin","Interoperability and standardization",,,,"Challenge",,,,,,"Major challenge",,"Once a customer is hooked to one provider, it is hard to move to another","C 2.12, P 51","Vendor lockin","",TRUE,,,,1,
+36,"Publication","Marinescu2023","Unauthorized access to confidential information",,,,,"Concern",,,,,,"Major concern","User concern","None","C 8.1","Third-party access / Unauthorized access to data and privileged information","",TRUE,,,,1,
+37,"Publication","Marinescu2023","Data theft",,,,,"Concern",,,,,,"Major concern","User concern","None","C 8.1","Data theft","TRUE",,TRUE,,,,1
+38,"Publication","Marinescu2023","Insider attacks",,,,,"Concern",,,,,,,"User concern","None","C 8.1","Malicious insider attack","",TRUE,TRUE,,,1,
+39,"Publication","Marinescu2023","User control over the lifecycle of data",,,,,"Concern",,,,,,,"User concern; impossible for a user to determine if data that should have been deleted actually was","None","C 8.1","User control over the lifecycle of data","TRUE",,,,,,1
+40,"Publication","Marinescu2023","Lack of standardization",,,,,"Concern",,,,,,,"User concern","None","C 8.1","Lack of standardization ","TRUE",,,,,,1
+41,"Publication","Marinescu2023","Auditing and compliance",,,,,"Challenge",,,,,,,"User concern","None","C 8.1","Non-compliance and fines","TRUE",,,,,,1
+42,"Publication","Marinescu2023","Cloud computing is based on a new technology expected to evolve in the future -> additional security threats",,,,,"Concern",,,,,,,,"None","C 8.1","Unknown threats due to new technology of cloud computing (evolves in the future)","TRUE",,,,,,1
+43,"Publication","Marinescu2023","Multitenancy",,,,,"Concern",,,,,,"Root cause of concerns","User concern","None","C 8.1","Multitenancy / Shared technology","",TRUE,,,,1,
+44,"Publication","Marinescu2023","Legal framework",,,,,"Concern",,,,,,,,"None","C 8.1","Legal framework","TRUE",,,,,,1
+45,"Publication","Marinescu2023","Data handling by the CSP",,,,,"Risk",,,,,,,"User concern","None","C 8.1","Threats related to third-party data control","TRUE",,,,,,1
+46,"Publication","Marinescu2023","Traditional security threats",,,,,"Risk",,,,,,"One of three broad classes of security risks","One of three broad classes of security risks",,"C 8.2","Traditional security threats","",TRUE,,,,,
+47,"Publication","Marinescu2023","Threats related to system availability",,,,,"Risk",,,,,,"One of three broad classes of security risks","One of three broad classes of security risks",,"C 8.2","Threats related to system availability","",TRUE,,,,1,
+48,"Publication","Marinescu2023","Threats related to third-party data control",,,,,"Risk",,,,,,"One of three broad classes of security risks","One of three broad classes of security risks",,"C 8.2","Threats related to third-party data control","TRUE",,,,,,1
+49,"Publication","Marinescu2023","Protect the infrastructure used to connect to the cloud",,TRUE,,,,,,,,,,,,"C 8.2","Protect the infrastructure used to connect to the cloud","TRUE",,,,,,1
+50,"Publication","Marinescu2023","Authentication and autorization process",,TRUE,,,,,,,,,,,,"C 8.2","Insufficient/missing authentication; Insufficient/missing authorization","",TRUE,,,,2,
+51,"Publication","Marinescu2023","DDoS attacks","Traditional security threats",TRUE,,,,,,,,,,,,"C 8.2","DoS/DDoS attack","",TRUE,TRUE,,,1,
+52,"Publication","Marinescu2023","Phishing","Traditional security threats",TRUE,,,,,,,,,,,,"C 8.2","Phishing","",TRUE,TRUE,,,1,
+53,"Publication","Marinescu2023","SQL injectoin","Traditional security threats",TRUE,,,,,,,,,,,,"C 8.2","SQL injection","",TRUE,TRUE,,,1,
+54,"Publication","Marinescu2023","Cross-site scripting","Traditional security threats",TRUE,,,,,,,,,,,,"C 8.2","Cross-site scripting (XSS)","",TRUE,TRUE,,,1,
+55,"Publication","Marinescu2023","System failures","Threats related to system availability",TRUE,,,,"Availability",,,,,,,,"C 8.2","System failures","",TRUE,,,,1,
+56,"Publication","Marinescu2023","Power outages","Threats related to system availability",TRUE,,,,"Availability",,,,,,,,"C 8.2","Power outages","",TRUE,,,,1,
+57,"Publication","Marinescu2023","Other catastrophic events","Threats related to system availability",TRUE,,,,"Availability",,,,,,,,"C 8.2","Other catastrophic events","",TRUE,,,,1,
+58,"Publication","Marinescu2023","Data lock-in","Threats related to system availability",TRUE,,,,"Availability",,,,,,,,"C 8.2","Data lock-in / Resources unavailability","TRUE",,,,,,1
+59,"Publication","Marinescu2023","phase transition phenomena and other effects specific to complex systems","Threats related to system availability",TRUE,,,,"Availability",,,,,,,,"C 8.2","Phase transition phenomena and other effects specific to complex systems","TRUE",,,,,,1
+60,"Publication","Marinescu2023","Application on the cloud returns incorrect results","Threats related to system availability",TRUE,,,,"Availability",,,,,,,,"C 8.2","Application on the cloud returns incorrect results","",TRUE,,,,,
+61,"Publication","Marinescu2023","Cloud provider may subcontract some resources from a third party","Threats related to third-party data control",TRUE,,,,,,,,,,,,"C 8.2","Cloud provider may subcontract some resources from a third party","TRUE",,,,,,1
+62,"Publication","Marinescu2023","Cloud provider espionage","Threats related to third-party data control",TRUE,,,,,,,,,,,,"C 8.2","Cloud provider espionage","",TRUE,TRUE,,,1,
+63,"Publication","Marinescu2023","Lack of transparency","Threats related to third-party data control",TRUE,,,,,,,,,,,,"C 8.2","Unknown threats due to lack of transparency","",TRUE,,,,1,
+64,"Publication","Marinescu2023","Abusive use of the cloud",,TRUE,,,,,TRUE,TRUE,,,,,"2010 Cloud Security Alliance (CSA) report","C 8.2","Using the cloud to host attacks (services, ressources, ...)","",TRUE,,,,,
+65,"Publication","Marinescu2023","Launch DoS attacks","Abusive use of the cloud",,TRUE,,,,TRUE,TRUE,,,,,"2011 Cloud Security Alliance (CSA) report","C 8.2","DoS/DDoS attack","",TRUE,TRUE,,,,
+66,"Publication","Marinescu2023","Distribute spam and malware","Abusive use of the cloud",,TRUE,,,,TRUE,TRUE,,,,,"2012 Cloud Security Alliance (CSA) report","C 8.2","Distribute spam and malware (malware proliferation)","",TRUE,TRUE,,,1,
+67,"Publication","Marinescu2023","Insecure APIs",,TRUE,,,,,TRUE,TRUE,TRUE,,,,"2013 Cloud Security Alliance (CSA) report","C 8.2","Insecure interfaces and APIs","",TRUE,,,,1,
+68,"Publication","Marinescu2023","Malicious insiders",,TRUE,,,,,TRUE,TRUE,TRUE,,,,"2014 Cloud Security Alliance (CSA) report","C 8.2","Malicious insider attack","",TRUE,TRUE,,,1,
+69,"Publication","Marinescu2023","Shared technology",,TRUE,,,,,TRUE,,,,,,"2015 Cloud Security Alliance (CSA) report","C 8.2","Multitenancy / Shared technology","",TRUE,,,,1,
+70,"Publication","Marinescu2023","Account hijacking",,TRUE,,,,,TRUE,TRUE,TRUE,,,,"2016 Cloud Security Alliance (CSA) report","C 8.2","Account hijacking / compromised accounts","",TRUE,TRUE,,,1,
+71,"Publication","Marinescu2023","Data loss",,TRUE,,,"Risk",,TRUE,TRUE,TRUE,,,,"2017 Cloud Security Alliance (CSA) report","C 8.2","(Permanent) Data loss","TRUE",,,,,,1
+72,"Publication","Marinescu2023","Data leakage",,TRUE,,,"Risk",,TRUE,TRUE,TRUE,,,,"2018 Cloud Security Alliance (CSA) report","C 8.2","Data leakage/disclosure","TRUE",,TRUE,,,,1
+73,"Publication","Marinescu2023","Unknown risk profile",,TRUE,,,,,TRUE,TRUE,TRUE,,,"refers to exposure to the ignorance or underestimation of the risks of cloud computing.","2019 Cloud Security Alliance (CSA) report","C 8.2","Unknown threats due to lack of transparency","",TRUE,,,,1,
+74,"Publication","Marinescu2023","SSL certificate spoofing","User - attacked by service",,TRUE,,,,,,,,,"By actor",,"C 8.2","SSL certificate spoofing","",TRUE,TRUE,,,1,
+75,"Publication","Marinescu2023","Attacks on browser caches","User - attacked by service",,TRUE,,,,,,,,,"By actor",,"C 8.2","Attacks on browser caches","",TRUE,TRUE,,,1,
+76,"Publication","Marinescu2023","Phishing attacks","User - attacked by service",,TRUE,,,,,,,,,"By actor",,"C 8.2","Phishing","",TRUE,TRUE,,,1,
+77,"Publication","Marinescu2023","The user can also be a victim of attacks that either truly originate or that spoof origination from the cloud infrastructure.","User - attacked by cloud",,TRUE,,,,,,,,,"By actor",,"C 8.2","The user can also be a victim of attacks that either truly originate or that spoof origination from the cloud infrastructure.","",TRUE,TRUE,,,,
+78,"Publication","Marinescu2023","Buffer overflow","Service - attacked by user",,TRUE,,,,,,,,,"By actor",,"C 8.2","Buffer overflow attacks","",TRUE,TRUE,,,1,
+79,"Publication","Marinescu2023","SQL injection","Service - attacked by user",,TRUE,,,,,,,,,"By actor",,"C 8.2","SQL injection","",TRUE,TRUE,,,1,
+80,"Publication","Marinescu2023","Privilege escalation","Service - attacked by user",,TRUE,,,,,,,,,"By actor",,"C 8.2","Privilege escalation","",TRUE,TRUE,,,1,
+81,"Publication","Marinescu2023","Limiting access to resources","Service - attacked by cloud",,TRUE,,,,,,,,,"By actor",,"C 8.2","Limiting access to resources","",TRUE,TRUE,,,1,
+82,"Publication","Marinescu2023","Privilege-related attacks","Service - attacked by cloud",,TRUE,,,,,,,,,"By actor",,"C 8.2","Privilege-related attacks","",TRUE,TRUE,,,1,
+83,"Publication","Marinescu2023","Data distortion","Service - attacked by cloud",,TRUE,,,,,,,,,"By actor",,"C 8.2","Data distortion","TRUE",,TRUE,,,,1
+84,"Publication","Marinescu2023","Injecting additional operations","Service - attacked by cloud",,TRUE,,,,,,,,,"By actor",,"C 8.2","Injecting additional operations","",TRUE,TRUE,,,1,
+85,"Publication","Marinescu2023","Same a user would direct toward any other cloud service.","Cloud - attacked by user",,TRUE,,,,,,,,,"By actor",,"C 8.2","Same as user would direct toward any other cloud service.","",TRUE,TRUE,,,,
+86,"Publication","Marinescu2023","Service requesting an excessive amount of resources and causing the exhaustion of the resources","Cloud - attacked by service",,TRUE,,,,,,,,,"By actor",,"C 8.2","Service requesting an excessive amount of resources and causing the exhaustion of the resources","",TRUE,TRUE,,,1,
+87,"Publication","Marinescu2023","Data breaches",,TRUE,,,,,,,,,1,,"CSA 2016 Top cloud security threats","C 8.2","Data breach","TRUE",,,,,,1
+88,"Publication","Marinescu2023","Compromized credentials and broken authentication",,TRUE,,,,,,,,,2,,"CSA 2016 Top cloud security threats","C 8.2","Account hijacking / compromised accounts","",TRUE,,,,1,
+89,"Publication","Marinescu2023","Hacked interfaces and APIs",,TRUE,,,,,,,,,3,,"CSA 2016 Top cloud security threats","C 8.2","Hacked interfaces and APIs","",TRUE,,,,1,
+90,"Publication","Marinescu2023","Exploited system vulnerabilities",,TRUE,,,,,,,,,4,,"CSA 2016 Top cloud security threats","C 8.2","System vulnerabilities","",TRUE,,TRUE,,,
+91,"Publication","Marinescu2023","Account hijacking",,TRUE,,,,,,,,,5,,"CSA 2016 Top cloud security threats","C 8.2","Account hijacking / compromised accounts","",TRUE,TRUE,,,1,
+92,"Publication","Marinescu2023","Malicious insiders",,TRUE,,,,,,,,,6,,"CSA 2016 Top cloud security threats","C 8.2","Malicious insider attack","",TRUE,TRUE,,,1,
+93,"Publication","Marinescu2023","APTs",,TRUE,,,,,,,,,7,,"CSA 2016 Top cloud security threats","C 8.2","APTs","",TRUE,TRUE,,,,
+94,"Publication","Marinescu2023","Permanent data loss",,TRUE,,,,,,,,,8,,"CSA 2016 Top cloud security threats","C 8.2","(Permanent) Data loss","TRUE",,,,,,1
+95,"Publication","Marinescu2023","Inadequate diligence",,TRUE,,,,,,,,,9,,"CSA 2016 Top cloud security threats","C 8.2","Inadequate diligence","TRUE",,,,,,1
+96,"Publication","Marinescu2023","Cloud service abuse",,TRUE,,,,,,,,,10,,"CSA 2016 Top cloud security threats","C 8.2","Using the cloud to host attacks (services, ressources, ...)","",TRUE,TRUE,,TRUE,,
+97,"Publication","Marinescu2023","DoS attacks",,TRUE,,,,,,,,,11,,"CSA 2016 Top cloud security threats","C 8.2","DoS/DDoS attack","",TRUE,TRUE,,,1,
+98,"Publication","Marinescu2023","Shared technology",,TRUE,,,,,,,,,12,,"CSA 2016 Top cloud security threats","C 8.2","Multitenancy / Shared technology","",TRUE,,,,1,
+99,"Publication","Marinescu2023","Hardware failures",,TRUE,,,,,,,,,,,"Threats identified by [471]","C 8.2","Hardware failures","",TRUE,,,,1,
+100,"Publication","Marinescu2023","Natural disasters",,TRUE,,,,,,,,,,,"Threats identified by [471]","C 8.2","Natural disasters","",TRUE,,,,1,
+101,"Publication","Marinescu2023","Cloud-related malware",,TRUE,,,,,,,,,,,"Threats identified by [471]","C 8.2","(Cloud-related) malware injection attack","",TRUE,,,,1,
+102,"Publication","Marinescu2023","Inadequate infrastructure design and planning",,TRUE,,,,,,,,,,,"Threats identified by [471]","C 8.2","Inadequate infrastructure design and planning","TRUE",,,,,,1
+103,"Publication","Marinescu2023","Point-of-sale (POS) intrusions and payment card skimmers",,TRUE,,,,,,,,,,,"Threats identified by [471]","C 8.2","Point-of-sale (POS) intrusions and payment card skimmers","",TRUE,TRUE,,,,
+104,"Publication","Marinescu2023","Crimeware and cyber espionage",,TRUE,,,,,,,,,,,"Threats identified by [471]","C 8.2","Crimeware and cyber espionage","TRUE",,TRUE,,,,1
+105,"Publication","Marinescu2023","Insider and privilege misues",,TRUE,,,,,,,,,,,"Threats identified by [471]","C 8.2","Misuse of (superuser) privileges","",TRUE,TRUE,,,1,
+106,"Publication","Marinescu2023","Web app attacks",,TRUE,,,,,,,,,,,"Threats identified by [471]","C 8.2","Web app attacks","",TRUE,TRUE,,,1,
+107,"Publication","Marinescu2023","Physical theft/loss",,TRUE,,,,,,,,,,,"Threats identified by [471]","C 8.2","Physical theft","",TRUE,TRUE,,,1,
+108,"Publication","Marinescu2023","Regulation differences because the service may be unable to assure compliance in all jurisdictions an organization operates in",,,,,"Concern",,,,,,,"Potential concerns of SecaaS",,"C 8.3","Regulation differences because the service may be unable to assure compliance in all jurisdictions an organization operates in","TRUE",,,,,,1
+109,"Publication","Marinescu2023","Lack of visibility as the service provider may not reveal details of how it implements its own security and manages its own environment",,,,,"Concern",,,,,,,"Potential concerns of SecaaS",,"C 8.3","Lack of visibility into CSPs operations (security, environment management)","TRUE",,,,,,1
+110,"Publication","Marinescu2023","Identity theft",,TRUE,,,,,,,,,,"Privacy concern",,"C 8.4","Identity theft","TRUE",TRUE,TRUE,,,1,1
+111,"Publication","Marinescu2023","Lack of user control",,,,,"Aspect",,,,,,,"Main aspect of cloud privacy",,"C 8.4","Lack of user control","TRUE",,,,,,1
+112,"Publication","Marinescu2023","Potential unauthorized secondary use",,,,,"Aspect",,,,,,,"Main aspect of cloud privacy",,"C 8.4","Potential unauthorized secondary use","TRUE",,,,,,1
+113,"Publication","Marinescu2023","Data proliferation",,,,,"Aspect",,,,,,,"Main aspect of cloud privacy",,"C 8.4","Data proliferation","TRUE",,,,,,1
+114,"Publication","Marinescu2023","Dynamic provisioning",,TRUE,,,"Aspect",,,,,,,"Main aspect of cloud privacy",,"C 8.4","Dynamic provisioning","TRUE",,,,,,1
+115,"Publication","Marinescu2023","Insufficient authorization, authentication and accounting mechansims","Data loss",,,,"Cause",,,,,"DBaaS ",,"Major cause of data loss",,"C 8.7","Insufficient/missing authentication; Insufficient/missing authorization; Insufficient/missing accounting","TRUE",TRUE,,,,2,1
+116,"Publication","Marinescu2023","Inconsistent use of encryption keys and techniques","Data loss",,,,"Cause",,,,,"DBaaS ",,"Major cause of data loss",,"C 8.7","Inconsistent use of encryption keys and techniques","",TRUE,,,,1,
+117,"Publication","Marinescu2023","Alteration or deletion of records without maintaining backup","Data loss",,,,"Cause",,,,,"DBaaS ",,"Major cause of data loss",,"C 8.7","Alteration or deletion of data/records (without maintaining backup)","",TRUE,,,,1,
+118,"Publication","Marinescu2023","Operational failures","Data loss",,,,"Cause",,,,,"DBaaS ",,"Major cause of data loss",,"C 8.7","Operational failures","TRUE",,,,,,1
+119,"Publication","Marinescu2023","Absence of authentication, authorization and accounting controls","Data integrity and privacy issues",,,,"Issue","Integrity",,,,"DBaaS ",,,,"C 8.7","Insufficient/missing authentication; Insufficient/missing authorization; Insufficient/missing accounting","TRUE",TRUE,,,,2,1
+120,"Publication","Marinescu2023","Poor key managemente for encryption and decryption","Data integrity and privacy issues",,,,"Issue","Integrity",,,,"DBaaS ",,,,"C 8.7","Poor key managemente for encryption and decryption","",TRUE,,TRUE,,1,
+121,"Publication","Marinescu2023","Bugs",,,,,"Issue","Confidentiality",,,,"DBaaS ",,"Unencrypted data is vulnerable to _",,"C 8.7","Bugs","",TRUE,,TRUE,,,
+122,"Publication","Marinescu2023","Erors",,,,,"Issue","Confidentiality",,,,"DBaaS ",,"Unencrypted data is vulnerable to _",,"C 8.7","Errors","",TRUE,,,,,
+123,"Publication","Marinescu2023","Attacks from external entities",,,,,"Issue","Confidentiality",,,,"DBaaS ",,"Unencrypted data is vulnerable to _",,"C 8.7","Attacks from external entities / outsider attacks","",TRUE,TRUE,,,1,
+124,"Publication","Marinescu2023","Superusers have unlimited privileges","Insider attacks",,,,"Concern",,,,,"DBaaS ",,"For DBaaS users and data owners",,"C 8.7","Excessive permissions/privileges","",TRUE,,,,1,
+125,"Publication","Marinescu2023","Misues of superuser privileges","Insider attacks",TRUE,,,"Concern","Confidentiality",,,,"DBaaS ",,"For DBaaS users and data owners",,"C 8.7","Misuse of (superuser) privileges","",TRUE,,,,1,
+126,"Publication","Marinescu2023","Spoofing","Malicious external attackers use",,,,,,,,,"DBaaS ",,,,"C 8.7","Spoofing","",TRUE,TRUE,,,1,
+127,"Publication","Marinescu2023","Sniffing",,,,,,,,,,"DBaaS ",,"Malicious external attackers use this to launch DoS attacks",,"C 8.7","Sniffing","",TRUE,TRUE,,,1,
+128,"Publication","Marinescu2023","MITM attacks",,,,,,,,,,"DBaaS ",,"Malicious external attackers use this to launch DoS attacks",,"C 8.7","MITM attack","",TRUE,TRUE,,,,
+129,"Publication","Marinescu2023","Sid chaneling",,,,,,,,,,"DBaaS ",,"Malicious external attackers use this to launch DoS attacks",,"C 8.7","Side channeling","TRUE",,,,,,1
+130,"Publication","Marinescu2023","Illegal transactions to launch DoS attacks",,,,,,,,,,"DBaaS ",,"Malicious external attackers use this to launch DoS attacks",,"C 8.7","DoS/DDoS attack","",TRUE,TRUE,,,1,
+131,"Publication","Marinescu2023","Illegal data recovery from storage devices",,,,,"Concerns",,,,,"DBaaS ",,,,"C 8.7","Illegal data recovery from storage (devices)","",TRUE,TRUE,,,1,
+132,"Publication","Marinescu2023","Data is vulnerable during transfor from data owner to DBaaS",,,,,,,,,,"DBaaS ",,,,"C 8.7","Data is vulnerable during transfor from data owner to DBaaS","",TRUE,,TRUE,,1,
+133,"Publication","Marinescu2023","Data provenance",,,,,,,,,,"DBaaS ",,,,"C 8.7","Data location","TRUE",,,,,,1
+134,"Publication","Marinescu2023","Are not aware of the physical location of their data","Lack of transparency",,,,,,,,,"DBaaS ",,"For cloud users",,"C 8.7","Are not aware of the physical location of their data","TRUE",,,,,,1
+135,"Publication","Marinescu2023","Do not have fine-grained control of the remote execution environment","Lack of transparency",,,,,,,,,"DBaaS ",,"DBaaS users",,"C 8.7","Loss of control in execution environment","TRUE",,,,,,1
+136,"Publication","Marinescu2023","Ensuring consistency among the replicas ",,,,,"Challenge",,,,,"DBaaS ",,,,"C 8.7","Ensuring consistency among the replicas ","TRUE",,,,,,1
+137,"Publication","Marinescu2023","Carry out timely backups",,,,,"Challenge",,,,,"DBaaS ",,,,"C 8.7","Carry out timely backups","TRUE",,,,,,1
+138,"Publication","Marinescu2023","Auditing and monitoring is a risk when delegated to Third-Party-Auditors",,,,,"Risk",,,,,"DBaaS ",,"Important functions for DBaaS",,"C 8.7","Third-party access / Unauthorized access to data and privileged information","",TRUE,,,,1,
+139,"Publication","Marinescu2023","Data privacy laws may be violated because consumers are unaware where the data is actually stored",,,,,,,,,,"DBaaS ",,,,"C 8.7","Consumers are unaware where the data is actually stored","TRUE",,,,,,1
+140,"Publication","Marinescu2023","Resource exhaustion caused by imprecise specification of user needs or incorrect evaluation of user specification",,TRUE,,,,"Availability",,,,"DBaaS ",,"Summary of previous DBaaS objects",,"C 8.7","Resource exhaustion caused by imprecise specification of user needs or incorrect evaluation of user specification","",TRUE,,,,1,
+141,"Publication","Marinescu2023","Failures of the consistency management",,TRUE,,,,"Availability",,,,"DBaaS ",,"Summary of previous DBaaS objects",,"C 8.7","Failures of the consistency management","TRUE",TRUE,,,,,1
+142,"Publication","Marinescu2023","Multiple hardware and/or software failures lead to inconsistent views of user data",,TRUE,,,,"Availability",,,,"DBaaS ",,"Summary of previous DBaaS objects",,"C 8.7","Multiple hardware and/or software failures lead to inconsistent views of user data","",TRUE,,,,1,
+143,"Publication","Marinescu2023","Failure of the monitoring and auditing system",,TRUE,,,,"Availability",,,,"DBaaS ",,"Summary of previous DBaaS objects",,"C 8.7","Disabled/misconfigured monitoring and logging (on a heterogeneous workload system)","",TRUE,,,,1,
+144,"Publication","Marinescu2023","Insider attacks",,TRUE,,,,"Confidentiality",,,,"DBaaS ",,"Summary of previous DBaaS objects",,"C 8.7","Malicious Insider attack","",TRUE,TRUE,,,1,
+145,"Publication","Marinescu2023","Outsider attacks",,TRUE,,,,"Confidentiality",,,,"DBaaS ",,"Summary of previous DBaaS objects",,"C 8.7","Attacks from external entities / outsider attacks","",TRUE,TRUE,,,1,
+146,"Publication","Marinescu2023","Access control issues",,TRUE,,,,"Confidentiality",,,,"DBaaS ",,"Summary of previous DBaaS objects",,"C 8.7","Insufficient/missing access control","",TRUE,,,,1,
+147,"Publication","Marinescu2023","Illegal data recovery from storage",,TRUE,,,,"Confidentiality",,,,"DBaaS ",,"Summary of previous DBaaS objects",,"C 8.7","Illegal data recovery from storage (devices)","",TRUE,TRUE,,,1,
+148,"Publication","Marinescu2023","Network breaches",,TRUE,,,,"Confidentiality",,,,"DBaaS ",,"Summary of previous DBaaS objects",,"C 8.7","Network breaches","TRUE",,,,,,1
+149,"Publication","Marinescu2023","Third-party access",,TRUE,,,,"Confidentiality",,,,"DBaaS ",,"Summary of previous DBaaS objects",,"C 8.7","Third-party access / Unauthorized access to data and privileged information","",TRUE,,,,1,
+150,"Publication","Marinescu2023","Inability to establish the provenance of the data",,TRUE,,,,"Confidentiality",,,,"DBaaS ",,"Summary of previous DBaaS objects",,"C 8.7","Inability to establish the provenance of the data","",TRUE,,,,1,
+151,"Publication","Marinescu2023","Unauthorized access to privileged information",,,TRUE,,"Problem",,,,,"OS",,,,"C 8.8","Third-party access / Unauthorized access to data and privileged information","",TRUE,TRUE,,,1,
+152,"Publication","Marinescu2023","Tampering with executable code",,,TRUE,,"Problem",,,,,"OS",,,,"C 8.8","Tampering with executable code","",TRUE,TRUE,,,1,
+153,"Publication","Marinescu2023","Spoofing",,,TRUE,,"Problem",,,,,"OS",,,,"C 8.8","Spoofing","",TRUE,TRUE,,,1,
+154,"Publication","Marinescu2023","Malicious intent of user","Breach of security",,,,"Problem",,,,,"OS",,,,"C 8.8","Malicious Insider attack","",TRUE,TRUE,,,1,
+155,"Publication","Marinescu2023","Carelessness or lack of understanding","Breach of security",,,,"Problem",,,,,"OS",,,,"C 8.8","Carelessness or lack of understanding","",TRUE,,,,,
+156,"Publication","Marinescu2023","Commercial operating systems do not support multilayered security",,,,,"Problem",,,,,"OS",,"They only distinguish between a completely privileged security domain and a completely unprivileged one",,"C 8.8","Commercial operating systems do not support multilayered security","TRUE",,,,,,1
+157,"Publication","Marinescu2023","Malicious mobile code attempting to gain access to the data and the other resources",,,,,"Problem","Confidentiality, Integrity",,,,"OS",,,,"C 8.8","Malicious mobile code attempting to gain access to the data and the other resources","",TRUE,TRUE,,,,
+158,"Publication","Marinescu2023","Hypervisor sees only raw data regarding the state of a guest OS",,,,,"Challenge",,,,,"VM",,"Major challenge. Security services typically operate at a higher logical level, e.g., at the level of a file rather than a disk block",,"C 8.9","Virtualization / Hypervisor security","TRUE",,,,,,1
+159,"Publication","Marinescu2023","Fingerprint VMs",,,TRUE,,,,,,,"VM",,,,"C 8.9","Fingerprint VMs","",TRUE,TRUE,,,1,
+160,"Publication","Marinescu2023","Avoid VM honey pots designed to study the methods of attack",,,TRUE,,,,,,,"VM",,,,"C 8.9","Avoid VM honey pots designed to study the methods of attack","",TRUE,TRUE,,,1,
+161,"Publication","Marinescu2023","Access VM-logging files and, thus, recover sensitive data",,,TRUE,,,,,,,"VM",,,,"C 8.9","Access VM-logging files and, thus, recover sensitive data","",TRUE,TRUE,,,1,
+162,"Publication","Marinescu2023","Resource starvation for some VMs","Hypervisor-based threats",TRUE,,,,,,,,"VM",,,"NIST security group","C 8.9","Resource starvation for some VMs","",TRUE,TRUE,,,1,
+163,"Publication","Marinescu2023","DoS for some VMs","Hypervisor-based threats",TRUE,TRUE,,,,,,,"VM",,,"NIST security group","C 8.9","DoS/DDoS attack","",TRUE,TRUE,,,1,
+164,"Publication","Marinescu2023","VM side-channel attacks","Hypervisor-based threats",TRUE,,,,,,,,"VM",,,"NIST security group","C 8.9","(Cross-) VM side-channel attacks","",TRUE,,,,1,
+165,"Publication","Marinescu2023","Buffer overflow attacks","Hypervisor-based threats",TRUE,,,,,,,,"VM",,,"NIST security group","C 8.9","Buffer overflow attacks","",TRUE,TRUE,,,1,
+166,"Publication","Marinescu2023","Deployment of rogue or insecure VM","VM-based threats",TRUE,,,,,,,,"VM",,,"NIST security group","C 8.9","Deployment of rogue or insecure resources","",TRUE,TRUE,,,1,
+167,"Publication","Marinescu2023","Presence of insecure and tampered VM images in the VM image repository","VM-based threats",TRUE,,,,,,,,"VM",,,"NIST security group","C 8.9","Presence of insecure and tampered workload images","",TRUE,,,,1,
+168,"Publication","Marinescu2023","Software lifecycle",,,,,"Problem",,,,,"Virtualization",,"One of the most critical problems posed by virtualization. At any point in time, multiple instances of the VM can be created and then each one of them can be updated, different patches installed, and so on.",,"C 8.10","Software lifecycle","",,,,,,
+169,"Publication","Marinescu2023","One-time passwords are transmitted in the clear, and the protection is guaranteed only if the attacker does not have the possibility to access passwords used in previous sessions",,,,TRUE,,,,,,"Virtualization",,,,"C 8.10","One-time passwords are transmitted in the clear, and the protection is guaranteed only if the attacker does not have the possibility to access passwords used in previous sessions","",TRUE,,TRUE,,1,
+170,"Publication","Marinescu2023","Requirement of some cryptographic protocols and even noncryptographic protocols regarding the “freshness” of the random number source used for session keys and nonces",,,,TRUE,,,,,,"Virtualization",,,,"C 8.10","The “freshness” of the random number source used for session keys and nonces","TRUE",,,,,,1
+171,"Publication","Marinescu2023","TCP hijacking",,,,,,,,,,"Virtualization",,,,"C 8.10","TCP hijacking","",TRUE,TRUE,,,,
+172,"Publication","Marinescu2023","Owner has very limited control over where sensitive data is stored: It could be spread across many servers and may be left on some of them indefinitely. A hypervisor records the state of a VM to be able to roll it back","Confidentiality of sensitive data",,,,,,,,,"Virtualization",,,,"C 8.10","Owner has very limited control over where sensitive data is stored: It could be spread across many servers and may be left on some of them indefinitely. A hypervisor records the state of a VM to be able to roll it back","TRUE",,,,,,1
+173,"Publication","Marinescu2023","Undelete files","Image sharing",,,,"Concern",,TRUE,,,"Shared images",,,,"C 8.11","Insecure or incomplete data deletion","",TRUE,,,,1,
+174,"Publication","Marinescu2023","Recover sensitive information (Files containing credentials, private keys)","Image sharing",,,,"Concern",,TRUE,,,"Shared images",,,,"C 8.11","Recover sensitive information, e.g. Files containing credentials and private keys","",TRUE,,,,1,
+175,"Publication","Marinescu2023","Backdoors and leftover credentials",,,,,"Risk",,,,,"Shared images",,,,"C 8.11","Backdoors and leftover credentials","",TRUE,TRUE,,,1,
+176,"Publication","Marinescu2023","Unsolicited connections",,,,,"Risk",,,,,"Shared images",,,,"C 8.11","Unsolicited connections","",TRUE,,,,,
+177,"Publication","Marinescu2023","Malware",,,,,"Risk",,,,,"Shared images",,,,"C 8.11","(Cloud-related) malware injection attack","",TRUE,TRUE,,,1,
+178,"Publication","Marinescu2023","Omission of the cloud-init script",,TRUE,,,,,,,,"Shared images",,,,"C 8.11","Omission of the cloud-init script","",TRUE,,,,1,
+179,"Publication","Marinescu2023","MITM attacks",,,TRUE,,,,,,,"Shared images",,,,"C 8.11","MITM attack","",TRUE,TRUE,,,,
+180,"Publication","Marinescu2023","Unsolicited connections",,TRUE,,,,,,,,"Shared images",,,,"C 8.11","Unsolicited connections","",TRUE,,,,,
+181,"Publication","Marinescu2023","Viruses","Malware",,,,,,,,,"Shared images",,,,"C 8.11","Viruses","",TRUE,TRUE,,,1,
+182,"Publication","Marinescu2023","Worms","Malware",,,,,,,,,"Shared images",,,,"C 8.11","Worms","",TRUE,TRUE,,,1,
+183,"Publication","Marinescu2023","Spyware","Malware",,,,,,,,,"Shared images",,,,"C 8.11","Spyware","",TRUE,TRUE,,,1,
+184,"Publication","Marinescu2023","Trojans","Malware",,,,,,,,,"Shared images",,,,"C 8.11","Trojans","",TRUE,TRUE,,,1,
+185,"Publication","Marinescu2023","Buffer overflow",,,,,"Risk",,,,,"Management OS",,,,"C 8.12","Buffer overflow attacks","",TRUE,,,,1,
+186,"Publication","Marinescu2023","DoS",,,,,"Risk",,,,,"Management OS",,,,"C 8.12","DoS/DDoS attack","",TRUE,TRUE,,,1,
+187,"Publication","Marinescu2023","Mobile malware",,TRUE,,,,,,,,"Mobile devices",,,,"C 8.14","(Cloud-related) malware injection attack","",TRUE,,,,1,
+188,"Publication","Marinescu2023","Stolen data due to loss, theft, or disposal",,TRUE,,,,,,,,"Mobile devices",,,,"C 8.14","Stolen data due to loss, theft, or disposal","TRUE",,TRUE,,,,1
+189,"Publication","Marinescu2023","Unautorized access",,TRUE,,,,,,,,"Mobile devices",,,,"C 8.14","Third-party access / Unauthorized access to data and privileged information","",TRUE,,,,1,
+190,"Publication","Marinescu2023","Electronic eavesdropping and electronic tracking",,TRUE,,,,,,,,"Mobile devices",,,,"C 8.14","Traffic eavesdropping; Electronic tracking","",TRUE,TRUE,,,2,
+191,"Publication","Marinescu2023","Access to data by third-party applications",,TRUE,,,,,,,,"Mobile devices",,,,"C 8.14","Third-party access / Unauthorized access to data and privileged information","",TRUE,,,,1,
+192,"Publication","Marinescu2023","Data leakage",,,,,"Risk",,,,,"Mobile devices",,,,"C 8.14","Data leakage/disclosure","TRUE",,TRUE,,,,1
+193,"Publication","Marinescu2023","Data compromize",,,,,"Risk",,,,,"Mobile devices",,,,"C 8.14","Data compromize","TRUE",,TRUE,,,,1
+194,"Publication","Marinescu2023","Loss of mobile device","Reason for risk",,,,"Risk",,,,,"Mobile devices",,,,"C 8.14","Loss of mobile device","TRUE",,,,,,1
+195,"Publication","Marinescu2023","Lock-screen protection","Reason for risk",,,,"Risk",,,,,"Mobile devices",,,,"C 8.14","Protect the infrastructure used to connect to the cloud","TRUE",,,,,,1
+196,"Publication","Marinescu2023","Enabling smudge attacks","Reason for risk",,,,"Risk",,,,,"Mobile devices",,"A smudge attack is a method to discern the password pattern of a   touchscreen device such as a cell phone or tablet computer",,"C 8.14","Enabling smudge attacks","",TRUE,TRUE,,,1,
+197,"Publication","Marinescu2023","Lack of confidentiality protection for data in transit in unsage oruntrusted WiFi or cellular networks","Reason for risk",,,,"Risk",,,,,"Mobile devices",,,,"C 8.14","Lack of confidentiality protection for data in transit in unsage oruntrusted WiFi or cellular networks","",TRUE,,,,1,
+198,"Publication","Marinescu2023","Unmatched firmware or software including OS and application software bypassing the security architecture","Reason for risk",,,,"Risk",,,,,"Mobile devices",,,,"C 8.14","Unmatched firmware or software including OS and application software bypassing the security architecture","",TRUE,,,,,
+199,"Publication","Marinescu2023","Malicious mobile applications bypassing access control mechanisms","Reason for risk",,,,"Risk",,,,,"Mobile devices",,,,"C 8.14","Malicious mobile applications bypassing access control mechanisms","",TRUE,TRUE,,,1,
+200,"Publication","Marinescu2023","Misuse or misconfiguration of location services, such as GPS","Reason for risk",,,,"Risk",,,,,"Mobile devices",,,,"C 8.14","Misuse or misconfiguration of location services, such as GPS","",TRUE,,,,1,
+201,"Publication","Marinescu2023","Acceptace of fake mobility management profiles","Reason for risk",,,,"Risk",,,,,"Mobile devices",,,,"C 8.14","Acceptace of fake mobility management profiles","",TRUE,,,,1,
+202,"Publication","Marinescu2023","Malware proliferation",,,,,"Issue",,,,,,1,"Top security issue","CSA top security issues","C 8.15","Distribute spam and malware (malware proliferation)","",TRUE,,,,1,
+203,"Publication","Marinescu2023","APTs",,,,,"Issue",,,,,,2,"Top security issue","CSA top security issues","C 8.15","APTs","",TRUE,TRUE,,,,
+204,"Publication","Marinescu2023","Comprimised accounts",,,,,"Issue",,,,,,3,"Top security issue","CSA top security issues","C 8.15","Account hijacking / compromised accounts","",TRUE,,,,1,
+205,"Publication","Marinescu2023","Insider threats",,,,,"Issue",,,,,,4,"Top security issue","CSA top security issues","C 8.15","Malicious insider attack","",TRUE,,,,1,
+206,"Publication","Marinescu2023","Access management",,TRUE,,,,,,,,,,"One of the most significant cloud security threats",,"C 8.15","Insufficient/missing access control","",TRUE,,,,1,
+207,"Publication","Marinescu2023","Data breaches and data leaks",,TRUE,,,,,,,,,,"One of the most significant cloud security threats",,"C 8.15","Data breaches; Data leakage/disclosure","TRUE",,TRUE,,,,2
+208,"Publication","Marinescu2023","Data loss",,TRUE,,,,,,,,,,"One of the most significant cloud security threats",,"C 8.15","(Permanent) Data loss","TRUE",,,,,,1
+209,"Publication","Marinescu2023","Insecure APIs",,TRUE,,,,,,,,,,"One of the most significant cloud security threats",,"C 8.15","Insecure interfaces and APIs","",TRUE,,,,1,
+210,"Publication","Marinescu2023","Misconfigured cloud storage",,TRUE,,,,,,,,,,"One of the most significant cloud security threats",,"C 8.15","Misconfigured services (storage/computing instances/…) and security-related settings","",TRUE,,,,1,
+211,"Publication","Marinescu2023","The lack of total control over who can access sensitive data in the cloud",,TRUE,,,"Issue",,,,TRUE,,,"One of the most relevant SaaS security issues",,"C 8.15","Third-party access / Unauthorized access to data and privileged information","",TRUE,,,,1,
+212,"Publication","Marinescu2023","The inability to control and keep track of data in transit to and from cloud applications",,,,,"Issue",,,,TRUE,,,"One of the most relevant SaaS security issues",,"C 8.15","The inability to control and keep track of data in transit to and from cloud applications","TRUE",,,,,,1
+213,"Publication","Marinescu2023","The inability to prevent the misuse of data or theft by insiders",,,,,"Issue",,,,TRUE,,,"One of the most relevant SaaS security issues",,"C 8.15","The inability to prevent the misuse of data or theft by insiders","TRUE",,TRUE,,,,1
+214,"Publication","Marinescu2023","The lack of skilled staff to manage the security of cloud applications used by an organization",,,,,"Issue",,,,TRUE,,,"One of the most relevant SaaS security issues",,"C 8.15","The lack of skilled staff to manage the security of cloud applications used by an organization","TRUE",,,,,,1
+215,"Publication","Marinescu2023","The inability to assess the security operations of the cloud service providers",,,,,"Issue",,,,TRUE,,,"One of the most relevant SaaS security issues",,"C 8.15","Unknown threats due to lack of transparency","",TRUE,,,,1,
+216,"Publication","Marinescu2023","APTs",,,TRUE,,,,TRUE,,,,,,,"C 8.15","APTs","",TRUE,TRUE,,,,
+217,"Publication","Bharti2024","Unauthorized, inadvertent insider exposore of sensitive data",,,,,"Assault",,,,,,,"One of most common type of assaults",,"P 231","Access/Expose sensitive data","",TRUE,TRUE,,,1,
+218,"Publication","Bharti2024","Viruses",,,,,"Assault",,,,,,,"One of most common type of assaults",,"P 231","Viruses","",TRUE,TRUE,,,1,
+219,"Publication","Bharti2024","Worms",,,,,"Assault",,,,,,,"One of most common type of assaults",,"P 231","Worms","",TRUE,TRUE,,,1,
+220,"Publication","Bharti2024","Theft of intellectual property",,,,,"Assault",,,,,,,"One of most common type of assaults",,"P 231","Theft of intellectual property","TRUE",,TRUE,,,,1
+221,"Publication","Bharti2024","Social engineering attacks",,,TRUE,,,,,,,,,"Second most common type of cyber-attack",,"P 231","Social engineering attacks","",TRUE,TRUE,,,1,
+222,"Publication","Bharti2024","Internal threats to user data",,TRUE,,,"Concern","Confidentiality, Integrity",,,,,,"Might start from a malicious user of a cloud service provider, a malicious user of a cloud service customer, or a hostile third party assisting a malicious cloud service provider or cloud service customer",,"P 234","Malicious Insider attack","",TRUE,,,,1,
+223,"Publication","Bharti2024","Remote software or hardware attacks on cloud applications and cloud users","External threats",TRUE,,,"Concern","Confidentiality, Integrity",,,,,,,,"P 234","Remote software or hardware attacks on cloud applications and cloud users","",TRUE,TRUE,,,,
+224,"Publication","Bharti2024","Social manipulation of CSPs and users","External threats",TRUE,,,"Concern","Confidentiality, Integrity",,,,,,,,"P 234","Social engineering attacks","",TRUE,TRUE,,,1,
+225,"Publication","Bharti2024","Human error","Information leakage",TRUE,,,"Concern","Confidentiality, Integrity",,,,,,,,"P 234","Human error","",TRUE,,,,,
+226,"Publication","Bharti2024","Broken hardware","Information leakage",TRUE,,,"Concern","Confidentiality, Integrity",,,,,,,,"P 234","Hardware failures","",TRUE,,,,1,
+227,"Publication","Bharti2024","Failed secure access","Information leakage",TRUE,,,"Concern","Confidentiality, Integrity",,,,,,,,"P 234","Insufficient/missing access control","",TRUE,,,,1,
+228,"Publication","Bharti2024","Impact of customer penetration testing on other users ","Change management (both software and hardware modifications)",TRUE,,,"Concern","Availability",,,,,,,,"P 234","Impact of customer penetration testing on other users ","TRUE",,,,,,1
+229,"Publication","Bharti2024","Impact of infrastructure modifications","Change management (both software and hardware modifications)",TRUE,,,"Concern","Availability",,,,,,,,"P 234","Impact of infrastructure modifications","TRUE",,,,,,1
+230,"Publication","Bharti2024","Network bandwidth","Lack of service availability (affects all cloud models)",TRUE,,,"Concern","Availability",TRUE,TRUE,TRUE,,,,,"P 234","Network bandwidth","TRUE",,,,,,1
+231,"Publication","Bharti2024","DNS service","Lack of service availability (affects all cloud models)",TRUE,,,"Concern","Availability",TRUE,TRUE,TRUE,,,,,"P 235","DNS service","TRUE",,,,,,1
+232,"Publication","Bharti2024","Computing applications","Lack of service availability (affects all cloud models)",TRUE,,,"Concern","Availability",TRUE,TRUE,TRUE,,,,,"P 235","Computing applications","TRUE",,,,,,1
+233,"Publication","Bharti2024","Resource unavailability","Lack of service availability (affects all cloud models)",TRUE,,,"Concern","Availability",TRUE,TRUE,TRUE,,,,,"P 235","Data lock-in / Resources unavailability","TRUE",,,,,,1
+234,"Publication","Bharti2024","Physical interruption of resources (In less secure locations or distant practices, insiders or external attackers can physically interrupt resources with relative ease)",,TRUE,,,"Concern","Availability",,,,,,,,"P 235","Physical interruption of resources (In less secure locations or distant practices, insiders or external attackers can physically interrupt resources with relative ease)","",TRUE,,,,1,
+235,"Publication","Bharti2024","Ineffective recovery techniques (lack of a good disaster recovery plan, which affects how long it takes to get back to normal and how well it works)",,TRUE,,,"Concern","Availability",,,,,,,,"P 235","Ineffective/insecure recovery/backup techniques (lack of a good disaster recovery plan)","",TRUE,,,,1,
+236,"Publication","Bharti2024","Transaction redirection","Malicious attempts",,,TRUE,"Nefarious operation",,,,,,,,,"P 235","Transaction redirection","",TRUE,,TRUE,,,
+237,"Publication","Bharti2024","Data alteration","Malicious attempts",,,TRUE,"Nefarious operation",,,,,,,,,"P 235","Data alteration","",TRUE,,TRUE,,1,
+238,"Publication","Bharti2024","Malware injection attack","Malicious attempts",,,TRUE,,,,,,,,,,"P 235","(Cloud-related) malware injection attack","",TRUE,TRUE,TRUE,,1,
+239,"Publication","Bharti2024","Password authentication","Malicious attempts",,,TRUE,,,,,,,,,,"P 235","Password authentication","",TRUE,,TRUE,,1,
+240,"Publication","Bharti2024","Password guessing attacks (brute force attacks and dictionary attacks)","Malicious attempts",,,TRUE,,,,,,,,,,"P 235","Password guessing attacks (brute force attacks and dictionary attacks)","",TRUE,TRUE,,,1,
+241,"Publication","Bharti2024","Viruses","Malicious attempts",,,TRUE,,,,,,,,,,"P 236","Viruses","",TRUE,TRUE,TRUE,,1,
+242,"Publication","Bharti2024","Browser hijacking","Malicious attempts",,,TRUE,,,,,,,,,,"P 236","Browser hijacking","",TRUE,TRUE,TRUE,,1,
+243,"Publication","Bharti2024","Spyware software","Malicious attempts",,,TRUE,,,,,,,,,,"P 236","Spyware","",TRUE,TRUE,TRUE,,1,
+244,"Publication","Bharti2024","Phishing","Malicious attempts",,,TRUE,"Concern",,,,,,"Second most serious cyber security concern","second most serious cyber security concern",,"P 236","Phishing","",TRUE,TRUE,TRUE,,1,
+245,"Publication","Bharti2024","Fraud","Malicious attempts",,,TRUE,,,,,,,,,,"P 236","Fraud","",TRUE,TRUE,TRUE,,,
+246,"Publication","Bharti2024","Software flaws","Malicious attempts",,,TRUE,,,,,,,,,,"P 236","Software/application flaws (e.g. unpatched software)","",TRUE,,TRUE,,1,
+247,"Publication","Bharti2024","Cloud malware injection attacks",,,,TRUE,,,,,,,,,,"P 236","(Cloud-related) malware injection attack","",TRUE,TRUE,TRUE,,1,
+248,"Publication","Bharti2024","Insecure API's",,,,TRUE,,,,,,,,,,"P 236","Inecure interfaces and APIs","",TRUE,,TRUE,,1,
+249,"Publication","Bharti2024","A malicious insider",,,,TRUE,,,,,,,,,,"P 236","Malicious Insider attack","",TRUE,TRUE,,,1,
+250,"Publication","Bharti2024","Getting private information","A malicious insider",,,TRUE,,,,,,,,,,"P 237","Access/Expose sensitive data","",TRUE,,TRUE,,1,
+251,"Publication","Bharti2024","Take control of cloud administrations","A malicious insider",,,TRUE,,,,,,,,,,"P 237","Privilege escalation","",TRUE,TRUE,TRUE,,1,
+252,"Publication","Bharti2024","Data location problems",,,,TRUE,"Challenge",,,,,,,"One of the most prevalent compliance challenges",,"P 237","Data location","TRUE",,,,,,1
+253,"Publication","Bharti2024","DDoS/DoS",,,,TRUE,,,,,,,,,,"P 237","DoS/DDoS attack","",TRUE,TRUE,TRUE,,1,
+254,"Publication","Bharti2024","Account Hijacking",,TRUE,,TRUE,,,,,,,,"One of the most hazardous cloud computing security threats",,"P 237","Account hijacking / compromised accounts","",TRUE,TRUE,,,1,
+255,"Publication","Bharti2024","View all current account actions and incoming communication","Account Hijacking",TRUE,,TRUE,,,,,,,,"One of the most hazardous cloud computing security threats",,"P 237","View all current account actions and incoming communication","",TRUE,,TRUE,,1,
+256,"Publication","Bharti2024","Exploit your identity to transmit erroneous information or change the data","Account Hijacking",TRUE,,TRUE,,,,,,,,"One of the most hazardous cloud computing security threats",,"P 237","Account hijacking / compromised accounts","",TRUE,TRUE,TRUE,,1,
+257,"Publication","Bharti2024","Permanent Data Loss",,,,TRUE,"Risk",,,,,,,"One of the most important risks in cloud computing; may result in irreversible data loss",,"P 237","(Permanent) Data loss","TRUE",,,,,,1
+258,"Publication","Bharti2024","Natural Disasters",,,,TRUE,,,,,,,,,,"P 238","Natural Disasters","",TRUE,,TRUE,,1,
+259,"Publication","Bharti2024","Data Breaches",,,,TRUE,,,,,,,,"Primary security risk",,"P 238","Data breach","TRUE",,,,,,1
+260,"Publication","Bharti2024","Data losses and breaches",,,,,"Problem",,,,,,,"Problem of vulnerability remediation",,"P 239","(Permanent) Data loss","TRUE",,,,,,1
+261,"Publication","Bharti2024","Insecure interfaces and APIs",,,,,"Problem",,,,,,,"Problem of vulnerability remediation",,"P 239","Insecure interfaces and APIs","",TRUE,,,,1,
+262,"Publication","Bharti2024","Malicious insiders",,,,,"Problem",,,,,,,"Problem of vulnerability remediation",,"P 239","Malicious Insider attack","",TRUE,TRUE,,,1,
+263,"Publication","Bharti2024","Account, service, and traffic hijacking",,,,,"Problem",,,,,,,"Problem of vulnerability remediation",,"P 239","Account hijacking / compromised accounts","",TRUE,TRUE,,,1,
+264,"Publication","Bharti2024","Shared-technology vulnerabilities",,,,,"Problem",,,,,,,"Problem of vulnerability remediation",,"P 239","Multitenancy / Shared technology","",TRUE,,TRUE,,1,
+265,"Publication","Bharti2024","Misuse of cloud services",,,,,"Problem",,,,,,,"Problem of vulnerability remediation",,"P 239","Misuse of (superuser) privileges","",TRUE,TRUE,,,1,
+266,"Publication","Bharti2024","Hijacking of service or account",,TRUE,,,,,,,,,,,,"P 242","Account hijacking / compromised accounts","",TRUE,TRUE,,,1,
+267,"Publication","Bharti2024","Information search",,TRUE,,,,,,,,,,,,"P 242","Access/Expose sensitive data","",TRUE,,,,1,
+268,"Publication","Bharti2024","Information ejaculation",,TRUE,,,,,,,,,,,,"P 242","Access/Expose sensitive data","",TRUE,TRUE,,,1,
+269,"Publication","Bharti2024","DoS",,TRUE,,,,,,,,,,,,"P 242","DoS/DDoS attack","",TRUE,TRUE,,,1,
+270,"Publication","Bharti2024","Clients information drafts",,TRUE,,,,,,,,,,,,"P 242","Clients information drafts","",TRUE,,,,,
+271,"Publication","Bharti2024","VM escape",,TRUE,,,,,,,,,,,,"P 242","VM escape / Cross VM attack","",TRUE,TRUE,,,1,
+272,"Publication","Bharti2024","VM hopping",,TRUE,,,,,,,,,,,,"P 242","VM hopping","",TRUE,TRUE,,,1,
+273,"Publication","Bharti2024","Malevolent VM making",,TRUE,,,,,,,,,,,,"P 242","Malevolent VM making","",TRUE,TRUE,,,1,
+274,"Publication","Bharti2024","Unconfident VM relocation",,TRUE,,,,,,,,,,,,"P 242","Unconfident VM relocation","",TRUE,TRUE,,,1,
+275,"Publication","Bharti2024","Inhale/send up indirect web work",,TRUE,,,,,,,,,,"To divert package outside of a VM to one or more is next to obtain indirect web work",,"P 243","Inhale/send up indirect web work","",TRUE,TRUE,,,,
+276,"Publication","Bharti2024","Misuse with criminal utilize of CC",,TRUE,,,,,,,,,,,,"P 243","Using the cloud to host attacks (services, ressources, ...)","",TRUE,TRUE,,,,
+277,"Publication","Bharti2024","Malevolent participants",,TRUE,,,,,,,,,,"The intersection of knowledge automation kindness along with shopper undergoing a unique administration preserve increase the feasibleness of",,"P 243","Malevolent participants","",TRUE,TRUE,,,,
+278,"Publication","Bharti2024","Shared technology",,TRUE,,,"Issue",,,,,,,,,"P 243","Multitenancy / Shared technology","",TRUE,,,,1,
+279,"Publication","Bharti2024","Unknown security profile",,TRUE,,,,,,,,,,,,"P 243","Unknown threats due to lack of transparency","",TRUE,,,,1,
+280,"Publication","Amalarethinam2024","Data security",,,,,"Issue",,,,,,,,,"P 472","Data security","TRUE",,,,,,1
+281,"Publication","Amalarethinam2024","Authentication","Data security",,,,"Factor",,,,,,,,,"P 472","Insufficient/missing authentication","",TRUE,,,,1,
+282,"Publication","Amalarethinam2024","Authorization","Data security",,,,"Factor",,,,,,,,,"P 472","Insufficient/missing authorization","",TRUE,,,,1,
+283,"Publication","Amalarethinam2024","Access Control","Data security",,,,"Factor",,,,,,,,,"P 473","Insufficient/missing access control","",TRUE,,,,1,
+284,"Publication","Amalarethinam2024","Auditing","Data security",,,,"Factor",,,,,,,,,"P 473","Auditing","TRUE",,,,,,1
+285,"Publication","Amalarethinam2024","Network security",,,,,"Issue",,,,,,,,,"P 473","Network security","TRUE",,,,,,1
+286,"Publication","Amalarethinam2024","Traffic eavesdropping / sniffing / snooping","Network security",,,,"Weakness",,,,,,,,,"P 473","Traffic eavesdropping / sniffing / snooping","",TRUE,TRUE,,,3,
+287,"Publication","Amalarethinam2024","Malicious intermediary","Network security",,,,"Weakness",,,,,,,,,"P 473","MITM attack","",TRUE,TRUE,,,,
+288,"Publication","Amalarethinam2024","DoS","Network security",,,,"Weakness",,,,,,,,,"P 473","DoS/DDoS attack","",TRUE,TRUE,,,1,
+289,"Publication","Amalarethinam2024","Information security",,,,,"Issue","Confidentiality, Availability",,,,,,,,"P 473","Information security","TRUE",,,,,,1
+290,"Publication","Amalarethinam2024","Software security",,,,,"Issue",,,,,,,,,"P 473","Software security","TRUE",,,,,,1
+291,"Publication","Amalarethinam2024","Flaws in web applications","Software security",,,TRUE,,,,,TRUE,,,,,"P 473","Software/application flaws (e.g. unpatched software)","",TRUE,,TRUE,,1,
+292,"Publication","Amalarethinam2024","Unauthorized access to data","Software security",TRUE,,,,,,,TRUE,,,"Some application security threats",,"P 473","Third-party access / Unauthorized access to data and privileged information","",TRUE,,,,1,
+293,"Publication","Amalarethinam2024","Cross-site scripting (XSS) attacks","Software security",TRUE,,,,,,,TRUE,,,"Some application security threats",,"P 473","Cross-site scripting (XSS)","",TRUE,TRUE,,,1,
+294,"Publication","Amalarethinam2024","SQL injection (SQLi) attack","Software security",TRUE,,,,,,,TRUE,,,"Some application security threats",,"P 473","SQL injection","",TRUE,TRUE,,,1,
+295,"Publication","Amalarethinam2024","data outflow from insecure APIs","Software security",TRUE,,,,,,,TRUE,,,"Some application security threats",,"P 473","Data outflow from insecure APIs","",TRUE,,TRUE,,1,
+296,"Publication","Amalarethinam2024","Infrastructure security",,,,,"Issue",,TRUE,,,,,,,"P 474","Infrastructure security","TRUE",,,,,,1
+297,"Publication","Amalarethinam2024","Phishing","Infrastructure security",TRUE,,,,,TRUE,,,,,"Some of the most frequent threats to infrastructure security",,"P 474","Phishing","",TRUE,TRUE,,,1,
+298,"Publication","Amalarethinam2024","Ransomware","Infrastructure security",TRUE,,,,,TRUE,,,,,"Some of the most frequent threats to infrastructure security",,"P 474","Ransomware","",TRUE,TRUE,,,1,
+299,"Publication","Amalarethinam2024","Botnets","Infrastructure security",TRUE,,,,,TRUE,,,,,"Some of the most frequent threats to infrastructure security",,"P 474","Botnets","",TRUE,TRUE,,,,
+300,"Publication","Amalarethinam2024","Physical theft","Infrastructure security",TRUE,,,,,TRUE,,,,,"Some of the most frequent threats to infrastructure security",,"P 474","Physical theft","",TRUE,TRUE,,,1,
+301,"Publication","Amalarethinam2024","DDoS",,,TRUE,,,,,,TRUE,,,,,"P 474","DoS/DDoS attack","",TRUE,TRUE,,,1,
+302,"Publication","Amalarethinam2024","Authentication attacks",,,TRUE,,,,,,TRUE,,,,,"P 474","Authentication attacks","",TRUE,TRUE,,,1,
+303,"Publication","Amalarethinam2024","XML signature attack",,,TRUE,,,,,,TRUE,,,,,"P 474","XML signature attack","",TRUE,TRUE,,,1,
+304,"Publication","Amalarethinam2024","Cross-site scripting",,,TRUE,,,,,,TRUE,,,,,"P 474","Cross-site scripting (XSS)","",TRUE,TRUE,,,1,
+305,"Publication","Amalarethinam2024","Malicious outside attacks",,,TRUE,,,,,,TRUE,,,,,"P 474","Attacks from external entities / outsider attacks","",TRUE,TRUE,,,1,
+306,"Publication","Amalarethinam2024","SQL injection attack",,,TRUE,,,,,,TRUE,,,,,"P 474","SQL injection","",TRUE,TRUE,,,1,
+307,"Publication","Amalarethinam2024","Web or browser security attack",,,TRUE,,,,,,TRUE,,,,,"P 474","Web or browser security attack","",TRUE,TRUE,,,1,
+308,"Publication","Amalarethinam2024","Phishing attack",,,TRUE,,,,,TRUE,,,,,,"P 474","Phishing","",TRUE,TRUE,,,1,
+309,"Publication","Amalarethinam2024","Password reset attack",,,TRUE,,,,,TRUE,,,,,,"P 474","Password reset attack","",TRUE,TRUE,,,1,
+310,"Publication","Amalarethinam2024","Cloud malware",,,TRUE,,,,,TRUE,,,,,,"P 474","(Cloud-related) malware injection attack","",TRUE,TRUE,,,1,
+311,"Publication","Amalarethinam2024","Injection attack",,,TRUE,,,,,TRUE,,,,,,"P 474","Injection attack","",TRUE,TRUE,,,,
+312,"Publication","Amalarethinam2024","MITM attack",,,TRUE,,,,,TRUE,,,,,,"P 474","MITM attack","",TRUE,TRUE,,,,
+313,"Publication","Amalarethinam2024","Flooding attack",,,TRUE,,,,,TRUE,,,,,,"P 474","DoS/DDoS attack","",TRUE,TRUE,,,1,
+314,"Publication","Amalarethinam2024","Stepping-stone attacks",,,TRUE,,,,TRUE,,,,,,,"P 474","APTs","",TRUE,TRUE,,,,
+315,"Publication","Amalarethinam2024","Insider threat",,,TRUE,,,,TRUE,,,,,,,"P 474","Malicious Insider attack","",TRUE,TRUE,,,1,
+316,"Publication","Amalarethinam2024","Cross VM attacks",,,TRUE,,,,TRUE,,,,,,,"P 474","VM escape / Cross VM attack","",TRUE,TRUE,,,1,
+317,"Publication","Amalarethinam2024","VM rollback",,,TRUE,,,,TRUE,,,,,,,"P 474","VM rollback","",TRUE,TRUE,,,1,
+318,"Publication","Amalarethinam2024","Programming attack",,,TRUE,,,,TRUE,,,,,,,"P 474","Programming attack","",TRUE,TRUE,,,,
+319,"Publication","Amalarethinam2024","Return oriented",,,TRUE,,,,TRUE,,,,,,,"P 474","Return oriented","",TRUE,TRUE,,,,
+320,"Publication","Surianarayanan2023","Data breach",,,,,"Issue",,,,,"Cloud data storage",,,"study of Vurukonda and Thirumala Rao (2016),","P 6","Data breach","TRUE",,,,,,1
+321,"Publication","Surianarayanan2023","Data theft",,,,,"Issue",,,,,"Cloud data storage",,,"study of Vurukonda and Thirumala Rao (2016),","P 6","Data theft","TRUE",,,,,,1
+322,"Publication","Surianarayanan2023","Unavailability of data",,,,,"Issue",,,,,"Cloud data storage",,,"study of Vurukonda and Thirumala Rao (2016),","P 6","Data lock-in / Resources unavailability","TRUE",,,,,,1
+323,"Publication","Surianarayanan2023","Data secrecy",,,,,"Challenge, Issue",,,,,"Big data",,,"Khan et al. (2021)","P 6","Data secrecy","TRUE",,,,,,1
+324,"Publication","Surianarayanan2023","Geographical location issues",,,,,"Challenge, Issue",,,,,"Big data",,,,"P 6","Data location","TRUE",,,,,,1
+325,"Publication","Surianarayanan2023","Unauthorized data access",,,,,"Challenge, Issue",,,,,"Big data",,,,"P 6","Third-party access / Unauthorized access to data and privileged information","",TRUE,TRUE,,,1,
+326,"Publication","Surianarayanan2023","Lack of control",,,,,"Challenge, Issue",,,,,"Big data",,,,"P 6","Potential loss of control/ownership of data","TRUE",,,,,,1
+327,"Publication","Surianarayanan2023","lack of data management",,,,,"Challenge, Issue",,,,,"Big data",,,,"P 6","Lack of data management","TRUE",,,,,,1
+328,"Publication","Surianarayanan2023","Network-level",,,,,"Challenge, Issue",,,,,"Big data",,,,"P 6","Network security","TRUE",,,,,,1
+329,"Publication","Surianarayanan2023","Data integrity",,,,,"Challenge, Issue",,,,,"Big data",,,,"P 6","Data integrity","TRUE",,,,,,1
+330,"Publication","Surianarayanan2023","Data recovery",,,,,"Challenge, Issue",,,,,"Big data",,,,"P 6","Data recovery","TRUE",,,,,,1
+331,"Publication","Surianarayanan2023","Lack of trust",,,,,"Challenge, Issue",,,,,"Big data",,,,"P 6","Lack of trust","TRUE",,,,,,1
+332,"Publication","Surianarayanan2023","Data sharing",,,,,"Challenge, Issue",,,,,"Big data",,,,"P 6","Data sharing","TRUE",,,,,,1
+333,"Publication","Surianarayanan2023","Data availability",,,,,"Challenge, Issue",,,,,"Big data",,,,"P 6","(Data) Availability","TRUE",,,,,,1
+334,"Publication","Surianarayanan2023","Asset issues",,,,,"Challenge, Issue",,,,,"Big data",,,,"P 6","Asset issues","",,,,,,
+335,"Publication","Surianarayanan2023","Legel amenabilities",,,,,"Challenge, Issue",,,,,"Big data",,,,"P 6","Legal framework","TRUE",,,,,,1
+336,"Publication","Surianarayanan2023","Lack of quality",,,,,"Challenge, Issue",,,,,"Big data",,,,"P 6","Lack of quality","",,,,,,
+337,"Publication","Surianarayanan2023","Lack of consistency",,,,,"Challenge, Issue",,,,,"Big data",,,,"P 6","Lack of consistency","",,,,,,
+338,"Publication","Surianarayanan2023","Data secrecy",,,,,"Challenge",,,,,,"Most prominent security challenge",,,"P 6","Data secrecy","TRUE",,,,,,1
+339,"Publication","Surianarayanan2023","DDoS",,,TRUE,,,,,,,"Software Defined Cloud (SDN)",,,,"P 6","DoS/DDoS attack","",TRUE,TRUE,,,1,
+340,"Publication","Surianarayanan2023","Issues related to virtualization and multitenancy",,,,,"Issue",,TRUE,,,,,,,"P 6","Issues related to virtualization; Multitenancy / Shared technology","",,,,,1,
+341,"Publication","Surianarayanan2023","DoS",,,TRUE,,"Issue",,TRUE,,,"VM",,,,"P 6","DoS/DDoS attack","",TRUE,TRUE,,,1,
+342,"Publication","Surianarayanan2023","Bugs in virtualizatio nsoftware",,,,TRUE,"Issue, Bug",,TRUE,,,"VM",,,,"P 6","Exploit vulnerability/bug in virtualization software (to access other virtual network)","",TRUE,TRUE,TRUE,,1,
+343,"Publication","Surianarayanan2023","VM escape",,,TRUE,,"Issue",,TRUE,,,"VM",,,,"P 6","VM escape / Cross VM attack","",TRUE,TRUE,,,1,
+344,"Publication","Surianarayanan2023","VMs are not monitored and managed properly",,,,,"Issue",,TRUE,,,"VM",,,,"P 6","Disabled/misconfigured monitoring and logging (on a heterogeneous workload system); Misconfigured services (storage/computing instances/…) and security-related settings","",TRUE,,,,2,
+345,"Publication","Surianarayanan2023","Malware",,,TRUE,,"Issue",,TRUE,,,"VM",,,,"P 6","(Cloud-related) malware injection attack","",TRUE,TRUE,,,1,
+346,"Publication","Surianarayanan2023","Copy sensitive data from the VM to outside",,,TRUE,,"Issue",,TRUE,,,"VM",,,,"P 6","Access/Expose sensitive data","",TRUE,TRUE,,,1,
+347,"Publication","Surianarayanan2023","virtual networks are not isolated completely",,,,,"Issue",,TRUE,,,"VM",,,,"P 6","Exploit vulnerability/bug in virtualization software (to access other virtual network)","",TRUE,,TRUE,,1,
+348,"Publication","Surianarayanan2023","Exploit vulnerability and access other virtual networks",,,TRUE,,"Issue",,TRUE,,,"VM",,,,"P 6","Exploit vulnerability/bug in virtualization software (to access other virtual network)","",TRUE,TRUE,TRUE,,1,
+349,"Publication","Surianarayanan2023","Misconfiguration of computing instances",,,,TRUE,,,TRUE,,,"VM","One of the major security concerns",,,"P 6","Misconfigured services (storage/computing instances/…) and security-related settings","",TRUE,,TRUE,,1,
+350,"Publication","Surianarayanan2023","VM theft","Virtualization and hypervisor related attacks",,TRUE,,,,TRUE,,,,,,,"P 7","VM theft","",TRUE,TRUE,,,1,
+351,"Publication","Surianarayanan2023","VM sprawl (remains out of date for security updates)","Virtualization and hypervisor related attacks",,TRUE,,,,TRUE,,,,,,,"P 7","VM sprawl (remains out of date for security updates)","",TRUE,TRUE,,,1,
+352,"Publication","Surianarayanan2023","VM escape","Virtualization and hypervisor related attacks",,TRUE,,,,TRUE,,,,,,,"P 7","VM escape / Cross VM attack","",TRUE,TRUE,,,1,
+353,"Publication","Surianarayanan2023","Hyperjacking (attacker takes control over the hypervisor)","Virtualization and hypervisor related attacks",,TRUE,,,,TRUE,,,,,,,"P 7","Hyperjacking (attacker takes control over the hypervisor)","",TRUE,TRUE,,,1,
+354,"Publication","Surianarayanan2023","Hypercall attack","Virtualization and hypervisor related attacks",,TRUE,,,,TRUE,,,,,,,"P 7","Exploit vulnerability/bug in virtualization software (to access other virtual network)","",TRUE,TRUE,,,1,
+355,"Publication","Surianarayanan2023","Hypervisor failure","Virtualization and hypervisor related attacks",,TRUE,,,,TRUE,,,,,,,"P 7","Hypervisor failure","",TRUE,,,,1,
+356,"Publication","Surianarayanan2023","Guest hopping attack / VM hopping attack","Virtualization and hypervisor related attacks",,TRUE,,,,TRUE,,,,,,,"P 7","Guest hopping attack; VM hopping attack","",TRUE,TRUE,,,1,
+357,"Publication","Surianarayanan2023","Cross VM side channel attacks","Virtualization and hypervisor related attacks",,TRUE,,,,TRUE,,,,,,,"P 7","(Cross-) VM side-channel attacks","",TRUE,TRUE,,,1,
+358,"Publication","Surianarayanan2023","Exploit vulnerabilities of applications and software tools to gain access",,,TRUE,,,,,,,,,,,"P 7","Exploit vulnerabilities of applications and software tools to gain access","",TRUE,TRUE,,,,
+359,"Publication","Surianarayanan2023","Heterogeneity in hardware and software cause flaws as the security setting for different resources would be different","Three major causes",,TRUE,,"Issue",,,TRUE,,,"One of the major security issue",,,"P 8","Heterogeneity in hardware and software cause flaws as the security setting for different resources would be different","TRUE",,TRUE,,,,1
+360,"Publication","Surianarayanan2023","Host in a multi-tenant environment becomes vulnerable to security attack (vulnerable host)","Three major causes",,TRUE,,"Issue",,,TRUE,,,"One of the major security issue",,,"P 8","Host in a multi-tenant environment becomes vulnerable to security attack (vulnerable host)","",TRUE,TRUE,,,1,
+361,"Publication","Surianarayanan2023","The resource of objects in a host also tends to be vulnerable (vulnerable object)","Three major causes",,TRUE,,"Issue",,,TRUE,,,"One of the major security issue",,,"P 8","The resource of objects in a host also tends to be vulnerable (vulnerable object)","",TRUE,TRUE,,,,
+362,"Publication","Surianarayanan2023","Lack of monitoring ability on a heterogeneous workload system",,,TRUE,,"Issue",,,TRUE,,,"One of the major security issue",,,"P 8","Disabled/misconfigured monitoring and logging (on a heterogeneous workload system)","",TRUE,TRUE,,,1,
+363,"Publication","Surianarayanan2023","Maintaining consistent security across multiple platforms or tools",,,TRUE,,"Issue",,,TRUE,,,"One of the major security issue",,,"P 8","Maintaining consistent security across multiple platforms or tools","TRUE",,TRUE,,,,1
+364,"Publication","Surianarayanan2023","Poor access control enables access",,,TRUE,,,,,TRUE,,,,,,"P8","Access/Expose sensitive data","",TRUE,,TRUE,,1,
+365,"Publication","Surianarayanan2023","Users may not be informed about the infrastructure and application-level security event logs",,,,,,,,,TRUE,,,,,"P 9","Lack of visibility into CSPs operations (security, environment management)","TRUE",,,,,,1
+366,"Publication","Surianarayanan2023","Password replay attack",,,,,,,,,TRUE,,,,,"P 9 ","Replay attack (e.g. on password)","",TRUE,TRUE,,,1,
+367,"Publication","Surianarayanan2023","Disclosing too much details (security program details) to consumers",,,,,"Risk",,,,TRUE,,,,,"P 9 ","CSP discloses too much details (security program details) to consumers","",TRUE,,,TRUE,,
+368,"Publication","Surianarayanan2023","Unaware of security posture of the provider (CSP is disclosing to little information)",,,,,,,,,TRUE,,,,,"P 9 ","Unknown threats due to lack of transparency","",TRUE,,,,1,
+369,"Publication","Surianarayanan2023","Customization of SaaS services",,,,,"Challenge",,,,TRUE,,,,,"P 9 ","Customization of SaaS services","TRUE",,,,,,1
+370,"Publication","Surianarayanan2023","Poor IAM / lack of user control",,,TRUE,,"Issue",,,,TRUE,,,,,"P 9","Insufficient/missing access control","",TRUE,,TRUE,,1,
+371,"Publication","Surianarayanan2023","Misconfigure the application and security related settings","Lack of user control",,TRUE,,"Issue",,,,TRUE,,,,,"P 9","Misconfigured services (storage/computing instances/…) and security-related settings","",TRUE,,TRUE,,1,
+372,"Publication","Surianarayanan2023","Insecure APIs may lack proper role-based access control",,,TRUE,TRUE,"Issue, Risk",,,,TRUE,,,,,"P 9","Insecure APIs lack proper role-based access control","",TRUE,,TRUE,,1,
+373,"Publication","Surianarayanan2023","SLA issues",,,TRUE,,"Issue",,,,TRUE,,,,,"P 9","SLA issues","TRUE",,,,,,1
+374,"Publication","Surianarayanan2023","Incomplete data-deletion","Data security issues",,TRUE,,"Issue",,,,TRUE,,,,,"P 9","Incomplete data-deletion","TRUE",,,,,,1
+375,"Publication","Surianarayanan2023","Data breach","Data security issues",,TRUE,,"Issue",,,,TRUE,,,,,"P 9","Data breach","TRUE",,,,,,1
+376,"Publication","Surianarayanan2023","Data loss","Data security issues",,TRUE,,"Issue",,,,TRUE,,,,,"P 9","(Permanent) Data loss","TRUE",,,,,,1
+377,"Publication","Surianarayanan2023","Data backup","Data security issues",,TRUE,,"Issue",,,,TRUE,,,,,"P 9","Ineffective/insecure recovery/backup techniques (lack of a good disaster recovery plan)","",TRUE,,,,1,
+378,"Publication","Surianarayanan2023","Recovery related issues","Data security issues",,TRUE,,"Issue",,,,TRUE,,,,,"P 9","Recovery-related issues","TRUE",,,,,,1
+379,"Publication","Surianarayanan2023","Logical data storage segregation due to multi-tenancy / Unaware of data location",,,TRUE,,"Issue",,,,TRUE,,,,,"P 9","Data location","TRUE",,,,,,1
+380,"Publication","Humayun2022","Susceptibility to new malware",,,,,"Issue",,,,TRUE,,,"Mentioned as example of security issues",,"P 5","(Cloud-related) malware injection attack","",TRUE,,,,1,
+381,"Publication","Humayun2022","Susceptibility to phishing attacks",,,TRUE,,"Issue",,,,TRUE,,,"Mentioned as example of security issues",,"P 5","Phishing","",TRUE,TRUE,,,1,
+382,"Publication","Humayun2022","Client data being exposed",,,,,"Issue, risk",,,,TRUE,,,"Mentioned as example of security issues",,"P 5","Access/Expose sensitive data","",TRUE,TRUE,,,1,
+383,"Publication","Humayun2022","Data breaches/leakage",,,,,"Issue, Challenge",,,,TRUE,,,,"Combined (GL and FL)","P 20","Data breaches; Data leakage/disclosure","TRUE",,TRUE,,,,2
+384,"Publication","Humayun2022","Identity and access management",,,,,"Issue, Challenge",,,,TRUE,,,,"Combined (GL and FL)","P 20","Mistakes in Identity and access management (IAM)","",TRUE,,TRUE,,1,
+385,"Publication","Humayun2022","Governance and regulatory compliance/SLA compliance",,,,,"Issue, Challenge",,,,TRUE,,,,"Combined (GL and FL)","P 20","Compliance; SLA issues","TRUE",,,,,,1
+386,"Publication","Humayun2022","Malicious insiders",,,,,"Issue, Challenge",,,,TRUE,,,,"Combined (GL and FL)","P 20","Malicious insider attack","",TRUE,TRUE,,,1,
+387,"Publication","Humayun2022","Transit security",,,,,"Issue, Challenge",,,,TRUE,,,,"Combined (GL and FL)","P 20","Transit security","TRUE",,,,,,1
+388,"Publication","Humayun2022","Non-standard API interfaces",,,,,"Issue, Challenge",,,,TRUE,,,,"Combined (GL and FL)","P 20","Insecure interfaces and APIs","",TRUE,,TRUE,,1,
+389,"Publication","Humayun2022","Backup and recovery",,,,,"Issue, Challenge",,,,TRUE,,,,"Combined (GL and FL)","P 20","Ineffective/insecure recovery/backup techniques (lack of a good disaster recovery plan)","",TRUE,,TRUE,,1,
+390,"Publication","Humayun2022","Lack of expertise",,,,,"Issue, Challenge",,,,TRUE,,,,"Combined (GL and FL)","P 20","Lack of expertise","TRUE",,,,,,1
+391,"Publication","Humayun2022","Insecure or incomplete data deletion",,,,,"Issue, Challenge",,,,TRUE,,,,"Combined (GL and FL)","P 20","Insecure or incomplete data deletion","",TRUE,,TRUE,,1,
+392,"Publication","Humayun2022","Virtualization issues/cloud & CSP migration issues",,,,,"Issue, Challenge",,,,TRUE,,,,"Combined (GL and FL)","P 20","Virtualization / Hypervisor security","TRUE",,,,,,1
+393,"Publication","Humayun2022","Multi-tenant environment",,,,,"Issue, Challenge",,,,TRUE,,,,"Combined (GL and FL)","P 20","Multi-tenant environment / data isolation","TRUE",,,,,,1
+394,"Publication","Humayun2022","Lack of trust between the cloud provider and client",,,,,"Issue, Challenge",,,,TRUE,,,,"Discussed in FL only","P 20","Lack of trust","TRUE",,,,,,1
+395,"Publication","Humayun2022","Network security/shared technology",,,,,"Issue, Challenge",,,,TRUE,,,,"Discussed in FL only","P 20","Network security; Multi-tenant environment / data isolation","TRUE",,,,,,1
+396,"Publication","Humayun2022","Not incorporating security into SDLC",,,,,"Issue, Challenge",,,,TRUE,,,,"Discussed in FL only","P 20","Not incorporating security into SDLC","",,,,,,
+397,"Publication","Humayun2022","Different service delivery orreceiving models.",,,,,"Issue, Challenge",,,,TRUE,,,,"Discussed in FL only","P 20","Different service delivery or receiving models.","TRUE",,,,,,1
+398,"Publication","Humayun2022","Documentation",,,,,"Issue, Challenge",,,,TRUE,,,,"Discussed in FL only","P 20","Documentation","TRUE",,,,,,1
+399,"Publication","Humayun2022","Paying upfront and long-term",,,,,"Issue, Challenge",,,,TRUE,,,,"Discussed in GL only","P 20","Managing costs","TRUE",,,,,,1
+400,"Publication","Humayun2022","Heterogeneous devices",,,,,"Issue, Challenge",,,,TRUE,,,,"Discussed in GL only","P 20","Heterogeneous devices","TRUE",,,,,,1
+401,"Publication","Wali2024","Connectivity with cloud services","Vulnerabilities factors",,,TRUE,,,,,,,,"From figure 3",,"P 6","Connectivity with cloud services","",TRUE,,TRUE,,1,
+402,"Publication","Wali2024","Shared infrastructure","Vulnerabilities factors",,,TRUE,,,,,,,,"From figure 3",,"P 6","Multitenancy / Shared technology","",TRUE,,TRUE,,1,
+403,"Publication","Wali2024","Malicious insiders","Vulnerabilities factors",,,TRUE,,,,,,,,"From figure 3",,"P 6","Malicious Insider attack","",TRUE,,TRUE,,1,
+404,"Publication","Wali2024","Security of SCADA protocol","Vulnerabilities factors",,,TRUE,,,,,,,,"From figure 3",,"P 6","Security of SCADA protocol","",,,TRUE,,,
+405,"Publication","Wali2024",,"Hardware attacks",,TRUE,,"Cyberattacks",,,,,,,"From figure 3",,"P 6",,"",,TRUE,,,,
+406,"Publication","Wali2024","Vulnerabilities-based attacks","Software attacks",,TRUE,,"Cyberattacks",,,,,,,"From figure 3",,"P 6","Vulnerabilities-based attacks","",,TRUE,,,,
+407,"Publication","Wali2024","Cloud-specific attacks","Software attacks",,TRUE,,"Cyberattacks",,,,,,,"From figure 3",,"P 6","Cloud-specific attacks","",TRUE,TRUE,,,,
+408,"Publication","Wali2024","Industrial control systems (ICSs) attacks","Software attacks",,TRUE,,"Cyberattacks",,,,,,,"From figure 3",,"P 6","Industrial control systems (ICSs) attacks","",,TRUE,,,,
+409,"Publication","Wali2024",,"Communication and protocol-specific attacks",,TRUE,,"Cyberattacks",,,,,,,"From figure 3",,"P 6",,"",,TRUE,,,,
+410,"Publication","Wali2024",,"Control process attacks",,TRUE,,"Cyberattacks",,,,,,,"From figure 3",,"P 6",,"",,TRUE,,,,
+411,"Publication","Wali2024",,"Insider attacks",,TRUE,,"Cyberattacks",,,,,,,"From figure 3",,"P 6","Malicious Insider attack","",TRUE,TRUE,,,1,
+412,"Publication","Wali2024","DoS attacks","Cyberattacks tactics",,,,,,,,,,,"From figure 3",,"P 6","DoS/DDoS attack","",TRUE,TRUE,,,1,
+413,"Publication","Wali2024","MITM attacks","Cyberattacks tactics",,,,,,,,,,,"From figure 3",,"P 6","MITM attack","",TRUE,TRUE,,,,
+414,"Publication","Wali2024","APTs attacks","Cyberattacks tactics",,,,,,,,,,,"From figure 3",,"P 6","APTs","",TRUE,TRUE,,,,
+415,"Publication","Wali2024","Unauthorized access and control","Malicious insider",TRUE,,,,,,,,,,,,"P 9","Insufficient/missing access control","",TRUE,,TRUE,,1,
+416,"Publication","Wali2024","Data breaches","Malicious insider",TRUE,,,,,,,,,,,,"P 9","Data breach","TRUE",,,,,,1
+417,"Publication","Wali2024","Data theft","Malicious insider",TRUE,,,,,,,,,,,,"P 9","Data theft","TRUE",,,,,,1
+418,"Publication","Wali2024","Data manipulation","Malicious insider",TRUE,,,,,,,,,,,,"P 9","Data manipulation","",TRUE,,,,,
+419,"Publication","Wali2024","Data exploitation","Malicious insider",TRUE,,,,,,,,,,,,"P 9","Data exploitation","",TRUE,,,,,
+420,"Publication","Wali2024","Trojan injections","Hardware attack",,TRUE,,,,,,,,,,,"P 9","Trojans","",TRUE,TRUE,,,1,
+421,"Publication","Wali2024","Expoit vulnerabilities in local security controls","Insider attack",,TRUE,,,,,,,,,,,"P 12","Expoit vulnerabilities in local security controls","",,TRUE,,,,
+422,"Publication","Wali2024","Data breach","Insider attack",,,,,,,,,,,,,"P 12","Data breach","TRUE",,,,,,1
+423,"Publication","Wali2024","Espionage","Insider attack",,,,,,,,,,,,,"P 12","Crimeware and cyber espionage","TRUE",,,,,,1
+424,"Publication","Wali2024","Lack of efficient user authentication and authorization","Insider attack",TRUE,,,"Risk",,,,,,"One of major security threats and risks for cloud-based SCADA systems",,,"P 12","Lack of efficient user authentication and authorization","",TRUE,,,,,
+425,"Publication","Wali2024","Privilege escalation","Insider attack",TRUE,,,"Risk",,,,,,"One of major security threats and risks for cloud-based SCADA systems",,,"P 12","Privilege escalation","",TRUE,TRUE,,,1,
+426,"Publication","Wali2024","Social engineering","Insider attack",TRUE,,,"Risk",,,,,,"One of major security threats and risks for cloud-based SCADA systems",,,"P 12","Social engineering attacks","",TRUE,,,,1,
+427,"Publication","Wali2024","Inadequate control access","Insider attack",TRUE,,,"Risk",,,,,,"One of major security threats and risks for cloud-based SCADA systems",,,"P 12","Insufficient/missing access control","",TRUE,,,,1,
+428,"Publication","Wali2024","Introduce malware","Insider attack",TRUE,,,"Risk",,,,,,"One of major security threats and risks for cloud-based SCADA systems",,,"P 12","(Cloud-related) malware injection attack","",TRUE,,,,1,
+429,"Publication","Wali2024","APTs","Software attacks",,TRUE,,,,,,,,,"Cloud-specific attacks",,"P 11","APTs","",TRUE,TRUE,,,,
+430,"Publication","Wali2024","Compromized data integritiy","Software attacks",,TRUE,,,,,,,,,"Cloud-specific attacks",,"P 11","Compromized data integritiy","",,TRUE,,,,
+431,"Publication","Wali2024","MITM attacks","Software attacks",,TRUE,,,,,,,,,"Cloud-specific attacks",,"P 11","MITM attack","",TRUE,TRUE,,,,
+432,"Publication","Wali2024","Replay attacks","Software attacks",,TRUE,,,,,,,,,"Cloud-specific attacks",,"P 11","Replay attacks","",,TRUE,,,,
+433,"Publication","Wali2024","DoS attacks ","Software attacks",TRUE,TRUE,,,"Availability",,,,,,"Cloud-specific attacks",,"P 11","DoS/DDoS attack","",TRUE,TRUE,,,1,
+434,"Publication","Wali2024","Device subtraction","Availability threat",,TRUE,,,"Availability",,,,,,"Cloud-specific attacks",,"P 11","Device subtraction","",,TRUE,,,,
+435,"Publication","Wali2024","Availability threat",,TRUE,,,,"Availability",,,,,,"Cloud-specific attacks",,"P 11","Threats related to system availability","",TRUE,,,,1,
+436,"Publication","Wali2024","Service theft","Availability threat",TRUE,TRUE,,,"Availability",,,,,,"Cloud-specific attacks",,"P 11","Service theft","",TRUE,TRUE,,,,
+437,"Publication","Wali2024","Path attacks","Availability threat",TRUE,TRUE,,,"Availability",,,,,,"Cloud-specific attacks",,"P 11","Path attacks","",TRUE,TRUE,,,,
+438,"Publication","Wali2024","Depletion of node resources","Availability threat",TRUE,TRUE,,,"Availability",,,,,,"Cloud-specific attacks",,"P 11","Depletion of node resources","",TRUE,TRUE,,,,
+439,"Publication","Wali2024","Incorrect configuration ","Integrity threats",TRUE,TRUE,,,"Integrity",,,,,,"Cloud-specific attacks",,"P 11","Misconfigured services (storage/computing instances/…) and security-related settings","",TRUE,TRUE,,,1,
+440,"Publication","Wali2024","Malware injection","Integrity threats",TRUE,TRUE,,,"Integrity",,,,,,"Cloud-specific attacks",,"P 11","(Cloud-related) malware injection attack","",TRUE,TRUE,,,1,
+441,"Publication","Wali2024","False data injection","Integrity threats",TRUE,TRUE,,,"Integrity",,,,,,"Cloud-specific attacks",,"P 11","False data injection","",TRUE,TRUE,,,,
+442,"Publication","Wali2024","Spoofing","Integrity threats",TRUE,TRUE,,,"Integrity",,,,,,"Cloud-specific attacks",,"P 11","Spoofing","",TRUE,TRUE,,,1,
+443,"Publication","Wali2024","Manipulation of routing information","Integrity threats",TRUE,TRUE,,,"Integrity",,,,,,"Cloud-specific attacks",,"P 11","Manipulation of routing information","",TRUE,TRUE,,,,
+444,"Publication","Wali2024","Theft of sensitive information","Confidentiality threats",TRUE,TRUE,,,"Confientiality",,,,,,"Cloud-specific attacks",,"P 11","Access/Expose sensitive data","",TRUE,TRUE,,,1,
+445,"Publication","Wali2024","Passive traffic analysis","Confidentiality threats",TRUE,TRUE,,,"Confientiality",,,,,,"Cloud-specific attacks",,"P 11","Traffic eavesdropping","",TRUE,TRUE,,,1,
+446,"Publication","Wali2024","Exposure of node status","Confidentiality threats",TRUE,TRUE,,,"Confientiality",,,,,,"Cloud-specific attacks",,"P 11","Exposure of node status","",TRUE,TRUE,,,,
+447,"Publication","Wali2024","Infrastructure information exposure","Confidentiality threats",TRUE,TRUE,,,"Confientiality",,,,,,"Cloud-specific attacks",,"P 11","Infrastructure information exposure","",TRUE,TRUE,,,,
+448,"Publication","Wali2024","Privilege escalation","Authentication threats ",TRUE,TRUE,,,,,,,,,"Cloud-specific attacks",,"P 11","Privilege escalation","",TRUE,TRUE,,,1,
+449,"Publication","Wali2024","Social engineering","Authentication threats ",TRUE,TRUE,,,,,,,,,"Cloud-specific attacks",,"P 11","Social engineering attacks","",TRUE,TRUE,,,1,
+450,"Publication","Wali2024","Inadequate access control ","Authentication threats ",TRUE,TRUE,,,,,,,,,"Cloud-specific attacks",,"P 11","Insufficient/missing access control","",TRUE,,TRUE,,1,
+451,"Publication","Wali2024","Node impersonation","Authentication threats ",TRUE,TRUE,,,,,,,,,"Cloud-specific attacks",,"P 11","Node impersonation","",TRUE,TRUE,,,,
+452,"Publication","Wali2024","DoS/DDoS",,,TRUE,,,,,,,,,"Cloud-specific attacks",,"P 11","DoS/DDoS attack","",TRUE,TRUE,,,1,
+453,"Publication","Wali2024","MITM",,,TRUE,,,,,,,,,"Cloud-specific attacks",,"P 11","MITM attack","",TRUE,TRUE,,,,
+454,"Publication","Wali2024","Spoofing ","MITM attack",,TRUE,,,,,,,,,,,"P 13","Spoofing ","",TRUE,TRUE,,,1,
+455,"Publication","Wali2024","Sniffing","MITM attack",,TRUE,,,,,,,,,,,"P 13","Sniffing","",TRUE,TRUE,,,1,
+456,"Publication","Wali2024","Exploit zero-day vulnerabilities","APTs",,,TRUE,,,,,,,,,,"P 13","Zero-day vulnerabilities","TRUE",,,TRUE,,,1
+457,"Publication","Wali2024","Unauthorized access to cloud based SCADA systems",,,TRUE,,,,,,,,,,,"P 13","Third-party access / Unauthorized access to data and privileged information","",TRUE,TRUE,,,1,
+458,"Publication","Wali2024","Manipulation of data and messages",,,TRUE,,,,,,,,,,,"P 13","Manipulation of data and messages","",,TRUE,,,,
+459,"Report","CSA2024","Misconfiguration & Inadequate Change Control",,TRUE,,,"Issue",,,,,,1,,"Survey","P 5","Misconfigured services (storage/computing instances/…) and security-related settings","",TRUE,,TRUE,,1,
+460,"Report","CSA2024","Identity & Access Management (IAM)",,TRUE,,,"Issue",,,,,,2,,"Survey","P 5","Mistakes in Identity and access management (IAM)","",TRUE,,TRUE,,1,
+461,"Report","CSA2024","Insecure Interfaces & APIs",,TRUE,,TRUE,"Issue",,,,,,3,,"Survey","P 5","Insecure interfaces and APIs","",TRUE,,TRUE,,1,
+462,"Report","CSA2024","Inadequate Selection/Implementation of Cloud Security Strategy",,TRUE,,,"Issue",,,,,,4,,"Survey","P 5","Inadequate Selection/Implementation of Cloud Security Strategy","",TRUE,,TRUE,,,
+463,"Report","CSA2024","Insecure Third-Party Resources",,TRUE,,,"Issue",,,,,,5,"Third-party resource could mean different things from externally written code through open-source libraries to SaaS products, or as noted in Security Issue 2, Insecure Interfaces and APIs","Survey","P 5","Insecure Thrid-Party Resources","TRUE",,,,,,1
+464,"Report","CSA2024","Insecure Software Development",,TRUE,,TRUE,"Issue",,,,,,6,,"Survey","P 5","Insecure software development","TRUE",,,TRUE,,,1
+465,"Report","CSA2024","Accidental Cloud Data Disclosure",,TRUE,,,"Issue",,,,,,7,,"Survey","P 5","Access/Expose sensitive data","",TRUE,,,,1,
+466,"Report","CSA2024","System Vulnerabilities",,TRUE,,,"Issue",,,,,,8,,"Survey","P 5","System vulnerabilities","",TRUE,,,,,
+467,"Report","CSA2024","Limited Cloud Visibility/Observability",,TRUE,,,"Issue",,,,,,9,"Limited cloud visibility occurs when an organization cannot effectively visualize and analyze whether cloud service usage is safe or malicious","Survey","P 5","Limited cloud visibility/observability","TRUE",,,,,,1
+468,"Report","CSA2024","Unauthenticated Resource Sharing",,TRUE,,,"Issue",,,,,"VM, Storage buckets, DB",10,,"Survey","P 5","Insufficient/missing authentication","",TRUE,,TRUE,,1,
+469,"Report","CSA2024","Advanced Persistent Threats",,TRUE,,,"Issue",,,,,,11,,"Survey","P 5","APTs","",TRUE,,,,,
+470,"Report","CSA2024","Denial of service",,TRUE,,,"Concern",,,,,,"below Top threats","In responsibility of CSP","Survey","P 5","DoS/DDoS attack","",TRUE,TRUE,,,1,
+471,"Report","CSA2024","Shared technology vulnerabilities",,TRUE,,,"Concern",,,,,,"below Top threats","In responsibility of CSP","Survey","P 5","Multitenancy / Shared technology","",TRUE,,TRUE,,1,
+472,"Report","CSA2024","CSP data loss ",,TRUE,,,"Concern",,,,,,"below Top threats","In responsibility of CSP","Survey","P 5","CSP data loss ","",TRUE,,,,,
+473,"Report","CSA2024","Misconfiguration & Exploitation of Serverless & Container Workloads",,TRUE,,,"Issue",,,,,"Serverless workload, container workload","below Top threats",,,"P 5","Misconfigured services (storage/computing instances/…) and security-related settings","",TRUE,,TRUE,,1,
+474,"Report","CSA2024","Cloud Storage Data Exfiltration",,TRUE,,,"Issue",,,,,,"below Top threats",,,"P 5","Access/Expose sensitive data","",TRUE,TRUE,,,1,
+475,"Report","CSA2024","Data breaches",,TRUE,,,"Concern",,,,,,"below Top threats",,,"P 6","Data breach","TRUE",,,,,,1
+476,"Report","CSA2024","Replay attacks","IAM",,TRUE,,"Challenge",,,,,,,,,"P 6","Replay attack (e.g. on password)","",TRUE,TRUE,,,1,
+477,"Report","CSA2024","Impersonation","IAM",,TRUE,,"Challenge",,,,,,,,,"P 6","Impersonation","",TRUE,TRUE,,,1,
+478,"Report","CSA2024","Excessive permissions","IAM",,,,"Challenge",,,,,,,,,"P 6","Excessive permissions/privileges","",TRUE,,TRUE,,1,
+479,"Report","CSA2024","Self-signed certificates","IAM",,,TRUE,"Concern",,,,,,,,,"P 6","Self-signed certificates","",TRUE,,TRUE,,1,
+480,"Report","CSA2024","Poor cryptographic management","IAM",,,TRUE,"Concern",,,,,,,,,"P 6","Poor cryptographic management","",TRUE,,TRUE,,1,
+481,"Report","CSA2024","Secrets management","Misconfigurations",,,,,,,,,,,"Some common misconfigurations",,"P 9","Poor secret management and practices","",,,,,1,
+482,"Report","CSA2024","Disabled monitoring and logging","Misconfigurations",,,,,,,,,,,"Some common misconfigurations",,"P 9","Disabled/misconfigured monitoring and logging (on a heterogeneous workload system)","",,,,,1,
+483,"Report","CSA2024","ICMP left open","Misconfigurations",,,,,,,,,,,"Some common misconfigurations",,"P 9","ICMP left open","",TRUE,,TRUE,,1,
+484,"Report","CSA2024","Insecure automated backups","Misconfigurations",,,,,,,,,,,"Some common misconfigurations",,"P 9","Ineffective/insecure recovery/backup techniques (lack of a good disaster recovery plan)","",TRUE,,TRUE,,1,
+485,"Report","CSA2024","Storage access","Misconfigurations",,,,,,,,,,,"Some common misconfigurations",,"P 9","Insufficient/missing access control","",TRUE,,TRUE,,1,
+486,"Report","CSA2024","Lack of validation","Misconfigurations",,,,,,,,,,,"Some common misconfigurations",,"P 9","Lack of validation","",TRUE,,TRUE,,,
+487,"Report","CSA2024","Unlimited access to non-HTTPS/HTTP ports","Misconfigurations",,,,,,,,,,,"Some common misconfigurations",,"P 9","Unlimited access to non-HTTPS/HTTP ports","",TRUE,,TRUE,,1,
+488,"Report","CSA2024","Overly permissive access to VMs, containers, and hosts","Misconfigurations",,,,,,,,,,,"Some common misconfigurations",,"P 9","Excessive permissions/privileges","",TRUE,,TRUE,,1,
+489,"Report","CSA2024","Enabling too many cloud access permissions (least privilege)","Misconfigurations",,,,,,,,,,,"Some common misconfigurations",,"P 9","Excessive permissions/privileges","",TRUE,,TRUE,,1,
+490,"Report","CSA2024","Subdomain hijacking (aka dangling DNS)","Misconfigurations",,,,,,,,,,,"Some common misconfigurations",,"P 9","Subdomain hijacking (aka dangling DNS)","",,,,,1,
+491,"Report","CSA2024","Misconfigurations specific to you CSP","Misconfigurations",,,,,,,,,,,"Some common misconfigurations",,"P 9","Misconfigurations specific to you CSP","",,,,TRUE,,
+492,"Report","CSA2024","Disclosure of data","Technical impact",,,,"Impact",,,,,,,"Results from ""Misconfiguration and inadequate Change Control""",,"P 10","Data leakage/disclosure","TRUE",,,,,,1
+493,"Report","CSA2024","Loss of data","Technical impact",,,,"Impact",,,,,,,"Results from ""Misconfiguration and inadequate Change Control""",,"P 10","(Permanent) Data loss","TRUE",,,,,,1
+494,"Report","CSA2024","Destruction of data","Technical impact",,,,"Impact",,,,,,,"Results from ""Misconfiguration and inadequate Change Control""",,"P 10","Alteration or deletion of data/records (without maintaining backup)","",,,,,1,
+495,"Report","CSA2024","System performance","Operational impact",,,,"Impact",,,,,,,"Results from ""Misconfiguration and inadequate Change Control""",,"P 10","System performance","TRUE",,,,,,1
+496,"Report","CSA2024","System outage","Operational impact",,,,"Impact",,,,,,,"Results from ""Misconfiguration and inadequate Change Control""",,"P 10","System outage","TRUE",,,,,,1
+497,"Report","CSA2024","Ransom demands","Financial impact",,,,"Impact",,,,,,,"Results from ""Misconfiguration and inadequate Change Control""",,"P 10","Ransom demands","",,,,,,
+498,"Report","CSA2024","Non-compliance and fines","Financial impact",,,,"Impact",,,,,,,"Results from ""Misconfiguration and inadequate Change Control""",,"P 10","Non-compliance and fines","TRUE",,,,,,1
+499,"Report","CSA2024","Lost revenue","Financial impact",,,,"Impact",,,,,,,"Results from ""Misconfiguration and inadequate Change Control""",,"P 10","Lost revenue","TRUE",,,,,,1
+500,"Report","CSA2024","Reduction in stock price","Financial impact",,,,"Impact",,,,,,,"Results from ""Misconfiguration and inadequate Change Control""",,"P 10","Reduction in stock price","",,,,,,
+501,"Report","CSA2024","Company reputation","Reputational impact",,,,"Impact",,,,,,,"Results from ""Misconfiguration and inadequate Change Control""",,"P 10","Company reputation","TRUE",,,,,,1
+502,"Report","CSA2024","System access","Technical impact",,,,"Impact",,,,,,,"Results from ""IAM""",,"P 11","System access","TRUE",,,,,,1
+503,"Report","CSA2024","Data disclosure","Technical impact",,,,"Impact",,,,,,,"Results from ""IAM""",,"P 11","Access/Expose sensitive data","",TRUE,,,,1,
+504,"Report","CSA2024","Data loss","Technical impact",,,,"Impact",,,,,,,"Results from ""IAM""",,"P 11","(Permanent) Data loss","TRUE",,,,,,1
+505,"Report","CSA2024","System outage","Operational impact",,,,"Impact",,,,,,,"Results from ""IAM""",,"P 11","System outage","TRUE",,,,,,1
+506,"Report","CSA2024","Feature delay","Operational impact",,,,"Impact",,,,,,,"Results from ""IAM""",,"P 11","Feature delay","TRUE",,,,,,1
+507,"Report","CSA2024","Lost revenue","Financial impact",,,,"Impact",,,,,,,"Results from ""IAM""",,"P 11","Lost revenue","TRUE",,,,,,1
+508,"Report","CSA2024","Non-compliance","Financial impact",,,,"Impact",,,,,,,"Results from ""IAM""",,"P 11","Non-compliance and fines","TRUE",,,,,,1
+509,"Report","CSA2024","Company reputation","Reputational impact",,,,"Impact",,,,,,,"Results from ""IAM""",,"P 11","Company reputation","TRUE",,,,,,1
+510,"Report","CSA2024","Customer reputation","Reputational impact",,,,"Impact",,,,,,,"Results from ""IAM""",,"P 11","Customer reputation","TRUE",,,,,,1
+511,"Report","CSA2024","Inadequate authentication mechanism","Insecure Interfaces and APIs",,,TRUE,,,,,,,,"Reason for ""Insecure interfaces and APIs""",,"P 18","Inadequate authentication mechanism","",,,TRUE,,,
+512,"Report","CSA2024","Lack of encryption","Insecure Interfaces and APIs",,,TRUE,,,,,,,,"Reason for ""Insecure interfaces and APIs""",,"P 18","Lack of encryption","",TRUE,,TRUE,,1,
+513,"Report","CSA2024","Improper session management","Insecure Interfaces and APIs",,,TRUE,,,,,,,,"Reason for ""Insecure interfaces and APIs""",,"P 18","Improper session management","",TRUE,,TRUE,,1,
+514,"Report","CSA2024","Insufficient input validation","Insecure Interfaces and APIs",,,TRUE,,,,,,,,"Reason for ""Insecure interfaces and APIs""",,"P 18","Insufficient input validation","",TRUE,,TRUE,,1,
+515,"Report","CSA2024","Poor logging and monitoring","Insecure Interfaces and APIs",,,TRUE,,,,,,,,"Reason for ""Insecure interfaces and APIs""",,"P 18","Disabled/misconfigured monitoring and logging (on a heterogeneous workload system)","",TRUE,,TRUE,,1,
+516,"Report","CSA2024","Outdated or unpatched software","Insecure Interfaces and APIs",,,TRUE,,,,,,,,"Reason for ""Insecure interfaces and APIs""",,"P 18","Outdated or unpatched software","",TRUE,,TRUE,,1,
+517,"Report","CSA2024","Assumed protection parity during cloud conversion","Insecure Interfaces and APIs",,,TRUE,,,,,,,,"Reason for ""Insecure interfaces and APIs""",,"P 18","Assumed protection parity during cloud conversion","",,,TRUE,,,
+518,"Report","CSA2024","Overly permissive account controls","Insecure Interfaces and APIs",,,TRUE,,,,,,,,"Reason for ""Insecure interfaces and APIs""",,"P 18","Excessive permissions/privileges","",TRUE,,TRUE,,1,
+519,"Report","CSA2024","Lack of rate limiting","Insecure Interfaces and APIs",,,TRUE,,,,,,,,"Reason for ""Insecure interfaces and APIs""",,"P 18","Lack of rate limiting","",,,TRUE,,,
+520,"Report","CSA2024","Unintended exposure of sensitive or private data",,,,,"Impact",,,,,,,"Most commonly reported impact from ""Insecure interfaces and APIs""",,"P 19","Access/Expose sensitive data","",TRUE,TRUE,,,1,
+521,"Report","CSA2024","System access","Technical impact",,,,"Impact",,,,,,,"Results from ""Insecure interfaces and APIs""",,"P 19","System access","TRUE",,,,,,1
+522,"Report","CSA2024","Data disclosure","Technical impact",,,,"Impact",,,,,,,"Results from ""Insecure interfaces and APIs""",,"P 19","Access/Expose sensitive data","",TRUE,TRUE,,,1,
+523,"Report","CSA2024","System outage","Operational impact",,,,"Impact",,,,,,,"Results from ""Insecure interfaces and APIs""",,"P 19","System outage","TRUE",,,,,,1
+524,"Report","CSA2024","Feature delay","Operational impact",,,,"Impact",,,,,,,"Results from ""Insecure interfaces and APIs""",,"P 19","Feature delay","TRUE",,,,,,1
+525,"Report","CSA2024","Lost revenue","Financial impact",,,,"Impact",,,,,,,"Results from ""Insecure interfaces and APIs""",,"P 19","Lost revenue","TRUE",,,,,,1
+526,"Report","CSA2024","Non-complicance and fines","Financial impact",,,,"Impact",,,,,,,"Results from ""Insecure interfaces and APIs""",,"P 19","Non-compliance and fines","TRUE",,,,,,1
+527,"Report","CSA2024","Company reputation","Reputational impact",,,,"Impact",,,,,,,"Results from ""Insecure interfaces and APIs""",,"P 19","Company reputation","TRUE",,,,,,1
+528,"Report","CSA2024","Customer reputation","Reputational impact",,,,"Impact",,,,,,,"Results from ""Insecure interfaces and APIs""",,"P 19","Customer reputation","TRUE",,,,,,1
+529,"Report","CSA2024","Existing vendor lock-ins","Inadequate Selection / Implementation of Cloud Security Strategy",,,,"Aspect",,,,,,,,,,"Vendor lockin","",TRUE,,,,1,
+530,"Report","CSA2024","Local data residency","Inadequate Selection / Implementation of Cloud Security Strategy",,,,"Aspect",,,,,,,"Things to consider",,"P 22","Local data residency","",,,,,,
+531,"Report","CSA2024","Preference for a certain CSP","Inadequate Selection / Implementation of Cloud Security Strategy",,,,"Aspect",,,,,,,"Things to consider",,"P 22","Preference for a certain CSP","",,,,,,
+532,"Report","CSA2024","Data disclosure","Technical impact",,,,"Impact",,,,,,,"Things to consider",,"P 22","Access/Expose sensitive data","",TRUE,TRUE,,,1,
+533,"Report","CSA2024","Deployment","Operational impact",,,,"Impact",,,,,,,"Results from ""Inadequate selection / implementation of cloud security strategy""",,"P 23","Deployment","",,,,,,
+534,"Report","CSA2024","Financial costs","Financial impact",,,,"Impact",,,,,,,"Results from ""Inadequate selection / implementation of cloud security strategy""",,"P 23","Financial costs","",,,,,,
+535,"Report","CSA2024","Non-compliance and fines","Financial impact",,,,"Impact",,,,,,,"Results from ""Inadequate selection / implementation of cloud security strategy""",,"P 23","Non-compliance and fines","TRUE",,,,,,1
+536,"Report","CSA2024","Company reputation","Reputational impact",,,,"Impact",,,,,,,"Results from ""Inadequate selection / implementation of cloud security strategy""",,"P 23","Company reputation","TRUE",,,,,,1
+537,"Report","CSA2024","Externally written code","Insecure Thrid-Party Resources",,,,,,,,,,,"Example of ""Insecure third party resources""",,"P 26","Externally written code","",,,,TRUE,,
+538,"Report","CSA2024","Open-source libraries","Insecure Thrid-Party Resources",,,,,,,,,,,"Example of ""Insecure third party resources""",,"P 26","Open-source libraries","",,,,TRUE,,
+539,"Report","CSA2024","SaaS products","Insecure Thrid-Party Resources",,,,,,,,,,,"Example of ""Insecure third party resources""",,"P 26","SaaS products","",,,,TRUE,,
+540,"Report","CSA2024","Insecure Interfaces and APIs","Insecure Thrid-Party Resources",,,,,,,,,,,"Example of ""Insecure third party resources""",,"P 26","Insecure Interfaces and APIs","",TRUE,,TRUE,TRUE,,
+541,"Report","CSA2024","Supply chain vulnerabilities","Insecure Thrid-Party Resources",,,TRUE,,,,,,,,"Example of ""Insecure third party resources""",,"P 26","Supply chain vulnerabilities","",,,TRUE,TRUE,,
+542,"Report","CSA2024","Data disclosure","Technical impact",,,,"Impact",,,,,,,"Results from ""Insecure third party resources""",,"P 27","Access/Expose sensitive data","",TRUE,TRUE,,,1,
+543,"Report","CSA2024","Data destruction","Technical impact",,,,"Impact",,,,,,,"Results from ""Insecure third party resources""",,"P 27","(Permanent) Data loss","TRUE",,,,,,1
+544,"Report","CSA2024","Product system outage","Operational impact",,,,"Impact",,,,,,,"Results from ""Insecure third party resources""",,"P 27","Product system outage","",,,,,,
+545,"Report","CSA2024","Non-compliance and fines","Financial impact",,,,"Impact",,,,,,,"Results from ""Insecure third party resources""",,"P 27","Non-compliance and fines","TRUE",,,,,,1
+546,"Report","CSA2024","Company confidence","Reputational impact",,,,"Impact",,,,,,,"Results from ""Insecure third party resources""",,"P 27","Company confidence","",,,,,,
+547,"Report","CSA2024","Data disclosure","Technical impact",,,,"Impact",,,,,,,"Results from ""Insecure software development""",,"P 31","Data leakage/disclosure","TRUE",,TRUE,,,,1
+548,"Report","CSA2024","Data destruction","Technical impact",,,,"Impact",,,,,,,"Results from ""Insecure software development""",,"P 31","(Permanent) Data loss","TRUE",,,,,,1
+549,"Report","CSA2024","Feature delay","Operational impact",,,,"Impact",,,,,,,"Results from ""Insecure software development""",,"P 31","Feature delay","TRUE",,,,,,1
+550,"Report","CSA2024","System outage","Operational impact",,,,"Impact",,,,,,,"Results from ""Insecure software development""",,"P 31","System outage","TRUE",,,,,,1
+551,"Report","CSA2024","Non-compliance and fines","Financial impact",,,,"Impact",,,,,,,"Results from ""Insecure software development""",,"P 31","Non-compliance and fines","TRUE",,,,,,1
+552,"Report","CSA2024","Customer confidence","Reputational impact",,,,"Impact",,,,,,,"Results from ""Insecure software development""",,"P 31","Customer confidence","",,,,,,
+553,"Report","CSA2024","Misconfiguration","Accidental data disclosure",,,,,,,,,,,"Reason for ""Accidental data disclosure""",,"P 34","Misconfigured services (storage/computing instances/…) and security-related settings","",TRUE,,TRUE,,1,
+554,"Report","CSA2024","Oversight and insufficient controls","Accidental data disclosure",,,,,,,,,,,"Reason for ""Accidental data disclosure""",,"P 34","Oversight and insufficient controls","",,,,,,
+555,"Report","CSA2024","Accidental data disclosure","Insider threat",TRUE,,,,,,,,,,,,"P 35","Accidental data disclosure","",TRUE,,,,,
+556,"Report","CSA2024","Data exposure","Technical impact",,,,"Impact",,,,,,,"Results for ""Accidental data disclosure""",,"P 35","Access/Expose sensitive data","",TRUE,TRUE,,,1,
+557,"Report","CSA2024","Business disruption","Operational impact",,,,"Impact",,,,,,,"Results for ""Accidental data disclosure""",,"P 35","Business disruption","TRUE",,,,,,1
+558,"Report","CSA2024","Non-compliance","Financial impact",,,,"Impact",,,,,,,"Results for ""Accidental data disclosure""",,"P 35","Non-compliance and fines","TRUE",,,,,,1
+559,"Report","CSA2024","Reputational impact","Company impact",,,,"Impact",,,,,,,"Results for ""Accidental data disclosure""",,"P 35","Reputational impact","TRUE",,,,,,1
+560,"Report","CSA2024","Exploit system vulnerabilities",,,TRUE,TRUE,,,,,,,,,,"P 39","Software/application flaws (e.g. unpatched software)","",TRUE,TRUE,TRUE,,1,
+561,"Report","CSA2024","System Vulnerabilities in cloud services from custom software","System vulnerabilities",,,TRUE,,,,,,,,"Component of ""System vulnerabilities""",,"P 39","Software/application flaws (e.g. unpatched software)","",TRUE,,TRUE,,1,
+562,"Report","CSA2024","System Vulnerabilities in cloud services from third-party libraries","System vulnerabilities",,,TRUE,,,,,,,,"Component of ""System vulnerabilities""",,"P 39","Software/application flaws (e.g. unpatched software)","",TRUE,,TRUE,,1,
+563,"Report","CSA2024","System Vulnerabilities in cloud services Oses","System vulnerabilities",,,TRUE,,,,,,,,"Component of ""System vulnerabilities""",,"P 39","Software/application flaws (e.g. unpatched software)","",TRUE,,TRUE,,1,
+564,"Report","CSA2024","Misconfiguration","System vulnerabilities",,,TRUE,,,,,,,,"One of the four main categories of ""System vulnerabilities""",,"P 39","Misconfigured services (storage/computing instances/…) and security-related settings","",TRUE,,TRUE,,1,
+565,"Report","CSA2024","Zero-day vulnerabilities","System vulnerabilities",,,TRUE,,,,,,,,"One of the four main categories of ""System vulnerabilities""",,"P 39","Zero-day vulnerabilities","TRUE",,,TRUE,,,1
+566,"Report","CSA2024","Unpatched software ","System vulnerabilities",,,TRUE,,,,,,,,"One of the four main categories of ""System vulnerabilities""",,"P 39","Software/application flaws (e.g. unpatched software)","",TRUE,,TRUE,,1,
+567,"Report","CSA2024","Weak or default credentials","System vulnerabilities",,,TRUE,,,,,,,,"One of the four main categories of ""System vulnerabilities""",,"P 39","Weak or default credentials","",TRUE,,TRUE,,1,
+568,"Report","CSA2024","Weakened security","Technical impact",,,,"Impact",,,,,,,"Results from ""system vulnerabilities""",,"P 40","Weakened security","",,,,,,
+569,"Report","CSA2024","Data loss","Technical impact",,,,"Impact",,,,,,,"Results from ""system vulnerabilities""",,"P 40","(Permanent) Data loss","TRUE",,,,,,1
+570,"Report","CSA2024","Business disruption","Operational impact",,,,"Impact",,,,,,,"Results from ""system vulnerabilities""",,"P 40","Business disruption","TRUE",,,,,,1
+571,"Report","CSA2024","System performance","Operational impact",,,,"Impact",,,,,,,"Results from ""system vulnerabilities""",,"P 40","System performance","TRUE",,,,,,1
+572,"Report","CSA2024","Lost revenue","Financial impact",,,,"Impact",,,,,,,"Results from ""system vulnerabilities""",,"P 40","Lost revenue","TRUE",,,,,,1
+573,"Report","CSA2024","Non-compliance and fines","Financial impact",,,,"Impact",,,,,,,"Results from ""system vulnerabilities""",,"P 40","Non-compliance and fines","TRUE",,,,,,1
+574,"Report","CSA2024","Company reputation","Reputational impact",,,,"Impact",,,,,,,"Results from ""system vulnerabilities""",,"P 40","Company reputation","TRUE",,,,,,1
+575,"Report","CSA2024","Customer reputation","Reputational impact",,,,"Impact",,,,,,,"Results from ""system vulnerabilities""",,"P 40","Customer reputation","TRUE",,,,,,1
+576,"Report","CSA2024","Un-sanctioned app use","Limited Cloud Visibility / Observability",,,,"Challenge",,,,,,,"One of two key challenges of ""Limited cloud visibility / observability""",,"P 43","Un-sanctioned app use","",,,,,,
+577,"Report","CSA2024","Sanctioned app misuse","Limited Cloud Visibility / Observability",,,,"Challenge",,,,,,,"One of two key challenges of ""Limited cloud visibility / observability""",,"P 43","Sanctioned app misuse","",,,,,,
+578,"Report","CSA2024","Credential theft","Sanctioned app misuse",,TRUE,,,,,,,,,"Potential cause of ""Limited Cloud Visibility / Observability""",,"P 43","Credential theft","",,TRUE,,,,
+579,"Report","CSA2024","SQL injection","Sanctioned app misuse",,TRUE,,,,,,,,,"Potential cause of ""Limited Cloud Visibility / Observability""",,"P 43","SQL injection","",TRUE,TRUE,,,1,
+580,"Report","CSA2024","DNS attacks","Sanctioned app misuse",,TRUE,,,,,,,,,"Potential cause of ""Limited Cloud Visibility / Observability""",,"P 43","DNS attacks","",TRUE,TRUE,,,1,
+581,"Report","CSA2024","Human error leading to data breaches","Data breach",,,,"Challenge",,,,,,,"Challenge of ""Limited Cloud visibility / observability",,"P 43","Human error leading to data breaches","",,,,,,
+582,"Report","CSA2024","Undetected security breaches","Data breach",,,,"Challenge",,,,,,,"Challenge of ""Limited Cloud visibility / observability",,"P 43","Undetected security breaches","",,,,,,
+583,"Report","CSA2024","Costs of cloud breaches","Data breach",,,,"Challenge",,,,,,,"Challenge of ""Limited Cloud visibility / observability",,"P 43","Costs of cloud breaches","",,,,,,
+584,"Report","CSA2024","Misconfigurations and access issues","Data breach",,,,"Challenge",,,,,,,"Challenge of ""Limited Cloud visibility / observability",,"P 44","Misconfigured services (storage/computing instances/…) and security-related settings; Mistakes in Identity and access management (IAM)","",TRUE,,TRUE,,2,
+585,"Report","CSA2024","Weakened security","Technical impact",,,,"Impact",,,,,,,"Results from ""Limited cloud visibility / observability""",,"P 44","Weakened security","",,,,,,
+586,"Report","CSA2024","Data loss","Technical impact",,,,"Impact",,,,,,,"Results from ""Limited cloud visibility / observability""",,"P 44","(Permanent) Data loss","TRUE",,,,,,1
+587,"Report","CSA2024","Business disruption","Operational impact",,,,"Impact",,,,,,,"Results from ""Limited cloud visibility / observability""",,"P 44","Business disruption","TRUE",,,,,,1
+588,"Report","CSA2024","System performance","Operational impact",,,,"Impact",,,,,,,"Results from ""Limited cloud visibility / observability""",,"P 44","System performance","TRUE",,,,,,1
+589,"Report","CSA2024","Lost revenue","Financial impact",,,,"Impact",,,,,,,"Results from ""Limited cloud visibility / observability""",,"P 44","Lost revenue","TRUE",,,,,,1
+590,"Report","CSA2024","Non-compliance and fines","Financial impact",,,,"Impact",,,,,,,"Results from ""Limited cloud visibility / observability""",,"P 44","Non-compliance and fines","TRUE",,,,,,1
+591,"Report","CSA2024","Company reputation","Reputational impact",,,,"Impact",,,,,,,"Results from ""Limited cloud visibility / observability""",,"P 44","Company reputation","TRUE",,,,,,1
+592,"Report","CSA2024","Customer reputation","Reputational impact",,,,"Impact",,,,,,,"Results from ""Limited cloud visibility / observability""",,"P 44","Customer reputation","TRUE",,,,,,1
+593,"Report","CSA2024","Data breach","Technical impact",,,,"Impact",,,,,,,"Results from ""Unauthenticated resource sharing""",,"P 48","Data breach","TRUE",,,,,,1
+594,"Report","CSA2024","Loss of data","Technical impact",,,,"Impact",,,,,,,"Results from ""Unauthenticated resource sharing""",,"P 48","(Permanent) Data loss","TRUE",,,,,,1
+595,"Report","CSA2024","Business disruption","Operational impact",,,,"Impact",,,,,,,"Results from ""Unauthenticated resource sharing""",,"P 48","Business disruption","TRUE",,,,,,1
+596,"Report","CSA2024","Lost revenue","Financial impact",,,,"Impact",,,,,,,"Results from ""Unauthenticated resource sharing""",,"P 48","Lost revenue","TRUE",,,,,,1
+597,"Report","CSA2024","Non-compliance and fines","Financial impact",,,,"Impact",,,,,,,"Results from ""Unauthenticated resource sharing""",,"P 48","Non-compliance and fines","TRUE",,,,,,1
+598,"Report","CSA2024","Company reputation","Reputational impact",,,,"Impact",,,,,,,"Results from ""Unauthenticated resource sharing""",,"P 48","Company reputation","TRUE",,,,,,1
+599,"Report","CSA2024","Customer reputation","Reputational impact",,,,"Impact",,,,,,,"Results from ""Unauthenticated resource sharing""",,"P 48","Customer reputation","TRUE",,,,,,1
+600,"Report","CSA2024","Ransomware and extortion","Tactic of APTs",,TRUE,,"Tactic",,,,,,,,,"P 52","Ransomware","",TRUE,TRUE,,,1,
+601,"Report","CSA2024","Exploitation of zero-day vulnerabilities","Tactic of APTs",,TRUE,,"Tactic",,,,,,,,,"P 52","Zero-day vulnerabilities","TRUE",,,TRUE,,,1
+602,"Report","CSA2024","Phishing","Tactic of APTs",,TRUE,,"Tactic",,,,,,,,,"P 52","Phishing","",TRUE,TRUE,,,1,
+603,"Report","CSA2024","Credential theft","Tactic of APTs",,TRUE,,"Tactic",,,,,,,,,"P 52","Credential theft","",,TRUE,,,,
+604,"Report","CSA2024","Destructive wiper attacks","Tactic of APTs",,TRUE,,"Tactic",,,,,,,,,"P 52","Destructive wiper attacks","",,TRUE,,,,
+605,"Report","CSA2024","Supply chain compromize","Tactic of APTs",,TRUE,,"Tactic",,,,,,,,,"P 52","Supply chain compromize","",,TRUE,,,,
+606,"Report","CSA2024","Weakened security","Technical impact",,,,"Impact",,,,,,,"Results from ""APTs""",,"P 53","Weakened security","",,,,,,
+607,"Report","CSA2024","Data loss","Technical impact",,,,"Impact",,,,,,,"Results from ""APTs""",,"P 53","(Permanent) Data loss","TRUE",,,,,,1
+608,"Report","CSA2024","Business disruption","Operational impact",,,,"Impact",,,,,,,"Results from ""APTs""",,"P 53","Business disruption","TRUE",,,,,,1
+609,"Report","CSA2024","System performance","Operational impact",,,,"Impact",,,,,,,"Results from ""APTs""",,"P 53","System performance","TRUE",,,,,,1
+610,"Report","CSA2024","Lost revenue","Financial impact",,,,"Impact",,,,,,,"Results from ""APTs""",,"P 53","Lost revenue","TRUE",,,,,,1
+611,"Report","CSA2024","Non-compliance and fines","Financial impact",,,,"Impact",,,,,,,"Results from ""APTs""",,"P 53","Non-compliance and fines","TRUE",,,,,,1
+612,"Report","CSA2024","Company reputation","Reputational impact",,,,"Impact",,,,,,,"Results from ""APTs""",,"P 53","Company reputation","TRUE",,,,,,1
+613,"Report","CSA2024","Customer reputation","Reputational impact",,,,"Impact",,,,,,,"Results from ""APTs""",,"P 53","Customer reputation","TRUE",,,,,,1
+614,"Report","PaloAlto2024","AI-Generated Code",,,TRUE,TRUE,"Concern",,,,,,1,"Top concerns in cloud security","Survey","P 21","Unforseen vulnerabilities and exploits introduced by AI-generated code","TRUE",,TRUE,TRUE,,,1
+615,"Report","PaloAlto2024","API Risks",,,,,"Concern, Risk",,,,,,2,"Top concerns in cloud security","Survey","P 21","API-associated risks","TRUE",,,,,,1
+616,"Report","PaloAlto2024","AI-Powered Attacks",,,TRUE,,"Concern",,,,,,3,"Top concerns in cloud security","Survey","P 21","AI-powered attacks","TRUE",,,,,,1
+617,"Report","PaloAlto2024","Inadequate Access Management",,,,,"Concern",,,,,,4,"Top concerns in cloud security","Survey","P 21","Insufficient/missing access control","",TRUE,,TRUE,,1,
+618,"Report","PaloAlto2024","CI/CD's Impact on the Attack Surface",,,,,"Concern",,,,,,5,"Top concerns in cloud security","Survey","P 21","Insecure software development","TRUE",,,,,,1
+619,"Report","PaloAlto2024","Insider Threats",,TRUE,,,"Concern",,,,,,6,"Top concerns in cloud security","Survey","P 21","Malicious Insider attack","",TRUE,TRUE,,,1,
+620,"Report","PaloAlto2024","Unknown, Unmanaged Assets",,,,,"Concern",,,,,,7,"Top concerns in cloud security","Survey","P 21","Neglected cloud infrastructure / Unknown, unmanaged assets","",TRUE,,TRUE,,1,
+621,"Report","PaloAlto2024","Unauthorized access","API-associated risks",,,,,,,,,,,,,"P 22","Third-party access / Unauthorized access to data and privileged information","",TRUE,,TRUE,,1,
+622,"Report","PaloAlto2024","Expose sensitive data","API-associated risks",,,,,,,,,,,,,"P 22","Access/Expose sensitive data","",TRUE,TRUE,,,1,
+623,"Report","PaloAlto2024","Create vulnerabilities for cyberattacks","API-associated risks",,,,,,,,,,,,,"P 22","Insecure interfaces and APIs","",TRUE,,TRUE,,1,
+624,"Report","PaloAlto2024","Unsecure APIs","API-associated risks",,,,,,,,,,,,,"P 22","Insecure interfaces and APIs","",TRUE,,TRUE,,1,
+625,"Report","PaloAlto2024","Third-party API risks","API-associated risks",,,,,,,,,,,,,"P 22","Third-party API risks","",TRUE,,,TRUE,,
+626,"Report","PaloAlto2024","Lack of oversight in API integrations","API-associated risks",,,,,,,,,,,,,"P 22","Neglected cloud infrastructure / Unknown, unmanaged assets","",TRUE,,TRUE,,1,
+627,"Report","PaloAlto2024","Data breaches",,,,,"Incident",,,,,,1,"Increases in security incidents",,"P 25","Data breach","TRUE",,,,,,1
+628,"Report","PaloAlto2024","Significant compliance violations",,,,,"Incident",,,,,,2,"Increases in security incidents",,"P 25","Non-compliance and fines","TRUE",,,,,,1
+629,"Report","PaloAlto2024","Insecure APIs",,,,,"Incident",,,,,,3,"Increases in security incidents",,"P 25","Insecure interfaces and APIs","",TRUE,,TRUE,,1,
+630,"Report","PaloAlto2024","Dowtime due to misconfigurations",,,,,"Incident",,,,,,4,"Increases in security incidents",,"P 25","Dowtime due to misconfigurations","",,,,,,
+631,"Report","PaloAlto2024","Advanced persistent threats",,,,,"Incident",,,,,,5,"Increases in security incidents",,"P 25","APTs","",TRUE,,,,,
+632,"Report","PaloAlto2024","Secret exposures",,,,,"Incident",,,,,,6,"Increases in security incidents",,"P 25","Secret exposures","",TRUE,,,,1,
+633,"Report","PaloAlto2024","Identities with overly permissive access",,,,,"Incident",,,,,,7,"Increases in security incidents",,"P 25","Excessive permissions/privileges","",TRUE,,TRUE,,1,
+634,"Report","PaloAlto2024","Vulnerable or poisoned workload images",,,,,"Incident",,,,,,8,"Increases in security incidents",,"P 25","Presence of insecure and tampered workload images","",TRUE,,TRUE,,1,
+635,"Report","PaloAlto2024","Unrestricted network access between workloads",,,,,"Incident",,,,,,9,"Increases in security incidents",,"P 25","Unrestricted network access between workloads","",,,,,,
+636,"Report","PaloAlto2024","Data leaks",,,,,"Incident",,,,,,10,"Increases in security incidents",,"P 25","Data leakage/disclosure","TRUE",,,,,,1
+637,"Report","PaloAlto2024","Exploit zero-day vulnerabilities","APTs",,TRUE,TRUE,,,,,,,,,,"P 27","Zero-day vulnerabilities","TRUE",,,TRUE,,,1
+638,"Report","PaloAlto2024","Social engineering","APTs",,TRUE,,,,,,,,,,,"P 27","Social engineering","",TRUE,TRUE,,,1,
+639,"Report","PaloAlto2024","Complexity and fragmentation of cloud environments","Data security",,,,"Challenge",,,,,,1,"Top challenges in data security",,"P 30","Complexity and fragmentation of cloud environments","",,,,,,
+640,"Report","PaloAlto2024","Lenient IAM practices or lack of granularity with permissions","Data security",,,,"Challenge",,,,,,2,"Top challenges in data security",,"P 30","Mistakes in Identity and access management (IAM)","",TRUE,,TRUE,,1,
+641,"Report","PaloAlto2024","Inadequate monitoring of sensitive data","Data security",,,,"Challenge",,,,,,3,"Top challenges in data security",,"P 30","Inadequate monitoring of sensitive data","",,,,,,
+642,"Report","PaloAlto2024","Poor secret management and practices","Data security",,,,"Challenge",,,,,,4,"Top challenges in data security",,"P 30","Poor secret management and practices","",TRUE,,TRUE,,1,
+643,"Report","CrowdStrike2023","Identity",,,,,,,,,,,,"Key cloud access point","From data and observations from real-world cyberattacks","P 4","Identity","",,,,,,
+644,"Report","CrowdStrike2023","Use valid accounts to gain access","Identity",,,,,,,,,,,,"From data and observations from real-world cyberattacks","P 4","Misuse of (superuser) privileges","",TRUE,,TRUE,,1,
+645,"Report","CrowdStrike2023","Misconfigurations due to poor identity and entitlement practices ","Identity",,,,,,,,,,,,"From data and observations from real-world cyberattacks","P 4","Mistakes in Identity and access management (IAM)","",TRUE,,TRUE,,1,
+646,"Report","CrowdStrike2023","IAM roles with elevated privileges","Identity",,,,,,,,,,,,"From data and observations from real-world cyberattacks","P 4","Excessive permissions/privileges","",TRUE,,TRUE,,1,
+647,"Report","CrowdStrike2023","Human error",,,,,"Risk",,,,,,,,"From data and observations from real-world cyberattacks","P 4","Human error","",,,,,,
+648,"Report","CrowdStrike2023","Lack of properly configured containers","Human error",,,,"Risk",,,,,"Container",,,"From data and observations from real-world cyberattacks","P 4","Misconfigured services (storage/computing instances/…) and security-related settings","",TRUE,,TRUE,,1,
+649,"Report","CrowdStrike2023","Insecure CSP default settings","Human error",,,,"Risk",,,,,,,,"From data and observations from real-world cyberattacks","P 4","Insecure CSP default settings","TRUE",,,TRUE,,,1
+650,"Report","CrowdStrike2023","Initial access",,,,,,,,,,,,"One of top adversary behaviors in the cloud",,"P 11","Initial access","",TRUE,,,,1,
+651,"Report","CrowdStrike2023","Discovery",,,,,,,,,,,,"One of top adversary behaviors in the cloud",,"P 11","Discovery","",TRUE,TRUE,,,1,
+652,"Report","CrowdStrike2023","Priviledge escalation",,,,,,,,,,,,"One of top adversary behaviors in the cloud",,"P 11","Privilege escalation","",TRUE,TRUE,,,1,
+653,"Report","CrowdStrike2023","Lateral movement",,,,,,,,,,,,"One of top adversary behaviors in the cloud",,"P 11","Lateral movement","",TRUE,TRUE,,,1,
+654,"Report","CrowdStrike2023","Defense evasion",,,,,,,,,,,,"One of top adversary behaviors in the cloud",,"P 11","Defense evasion","",TRUE,TRUE,,,1,
+655,"Report","CrowdStrike2023","Using valid existing accounts","Initial access",,,,,,,,,,,,,"P 11","Misuse of (superuser) privileges","",TRUE,TRUE,,,1,
+656,"Report","CrowdStrike2023","Resetting passwords","Initial access",,,,,,,,,,,,,"P 11","Password reset attack","",TRUE,TRUE,,,1,
+657,"Report","CrowdStrike2023","Exploit public-facing applications","Initial access",,,,,,,,,,,,,"P 11","Exploit public-facing applications","",TRUE,TRUE,,,1,
+658,"Report","CrowdStrike2023","Using credentials found in files (through cloud provider's instance metadata services)","Initial access",,,,,,,,,,,,,"P 11","Recover sensitive information, e.g. Files containing credentials and private keys","",TRUE,,,,1,
+659,"Report","CrowdStrike2023","Searched for Cloud accounts","Discovery",,,,,,,,,,,,,"P 11","Searched for Cloud accounts","",TRUE,TRUE,,,1,
+660,"Report","CrowdStrike2023","Searched for Reachable network services","Discovery",,,,,,,,,,,,,"P 11","Searched for Reachable network services","",TRUE,TRUE,,,1,
+661,"Report","CrowdStrike2023","Searched for Permission groups","Discovery",,,,,,,,,,,,,"P 11","Searched for Permission groups","",TRUE,TRUE,,,1,
+662,"Report","CrowdStrike2023","Searched for Infrastructure","Discovery",,,,,,,,,,,,,"P 11","Searched for Infrastructure","",TRUE,TRUE,,,1,
+663,"Report","CrowdStrike2023","Searched for Storage buckets","Discovery",,,,,,,,,"Storage buckets",,,,"P 11","Searched for Storage buckets","",TRUE,TRUE,,,1,
+664,"Report","CrowdStrike2023","By finding credentials","Privilege escalation",,,,,,,,,,,,,"P 11","Recover sensitive information, e.g. Files containing credentials and private keys","",TRUE,TRUE,,,1,
+665,"Report","CrowdStrike2023","By resetting existing credentials","Privilege escalation",,,,,,,,,,,,,"P 11","By resetting existing credentials","",TRUE,TRUE,,,1,
+666,"Report","CrowdStrike2023","Leveraging cloud orchestration tools","Lateral movement",,,,,,,,,,,,,"P 11","Leveraging cloud orchestration tools","",TRUE,TRUE,,,1,
+667,"Report","CrowdStrike2023","Using various protocols (SSH, RDP, SMB)","Lateral movement",,,,,,,,,,,,,"P 11","Using various protocols (SSH, RDP, SMB)","",,,,,,
+668,"Report","CrowdStrike2023","Deactivating security products running inside VMs","Defense evasion",,,,,,,,,"VM",,,,"P 11","Impair defenses/Deactivating security products","",TRUE,TRUE,,,1,
+669,"Report","CrowdStrike2023","Masquerade as valid users by choosing proxy exits close to expected victim locations","Defense evasion",,,,,,,,,,,,,"P 11","Masquerade as valid users by choosing proxy exits close to expected victim locations","",TRUE,TRUE,,,1,
+670,"Report","CrowdStrike2023","Naming newly created VMs to align with naming scheme","Defense evasion",,,,,,,,,"VM",,,,"P 11","Naming newly created workloads to align with naming scheme","",TRUE,TRUE,,,1,
+671,"Report","CrowdStrike2023","Identity and entitlement misconfigurations","Misconfigurations",,,,,,,,,,,"Cloud misconfigurations",,"P 12","Mistakes in Identity and access management (IAM)","",TRUE,,TRUE,,1,
+672,"Report","CrowdStrike2023","Insecure cloud provider default settings","Misconfigurations",,,,,,,,,,,"Cloud misconfigurations",,"P 12","Insecure CSP default settings","TRUE",,,TRUE,,,1
+673,"Report","CrowdStrike2023","Excessive account permissions","Identity and entitlement misconfigurations",,,,,,,,,,,"Cloud misconfigurations",,"P 12","Excessive permissions/privileges","",TRUE,,TRUE,,1,
+674,"Report","CrowdStrike2023","Ineffective identity architecture","Identity and entitlement misconfigurations",,,,,,,,,,,"Cloud misconfigurations",,"P 12","Mistakes in Identity and access management (IAM)","",TRUE,,TRUE,,1,
+675,"Report","CrowdStrike2023","Public snapshots and images","Insecure cloud provider default settings",,,,,,,,,"VM image",,"Cloud misconfigurations",,"P 12","Public snapshots and images","",TRUE,,TRUE,,1,
+676,"Report","CrowdStrike2023","Open databases, caches and storage buckets","Insecure cloud provider default settings",,,,,,,,,"DB, Caches, Storage buckets",,"Cloud misconfigurations",,"P 12","Open databases, caches and storage buckets","",TRUE,,TRUE,,1,
+677,"Report","CrowdStrike2023","Neglected cloud infrastructure","Insecure cloud provider default settings",,,,,,,,,"Applications, workloads",,"Cloud misconfigurations",,"P 12","Neglected cloud infrastructure / Unknown, unmanaged assets","",,,,,1,
+678,"Report","CrowdStrike2023","Improper configurations","Container incidents",,,,,,,,,"Container",,,,"P 13","Misconfigured services (storage/computing instances/…) and security-related settings","",TRUE,,TRUE,,1,
+679,"Report","CrowdStrike2023","Poor protections","Container incidents",,,,,,,,,"Container",,,,"P 13","Poor protections","",,,,,,
+680,"Report","CrowdStrike2023","Lack of monitoring","Container incidents",,,,,,,,,"Container",,,,"P 13","Disabled/misconfigured monitoring and logging (on a heterogeneous workload system)","",TRUE,,TRUE,,1,
+681,"Report","CrowdStrike2023","Workloads run as root, or allow escalation to root","Container incidents",,,,,,,,,"Container",,,,"P 13","Workloads run as root, or allow escalation to root","",TRUE,,TRUE,,1,
+682,"Report","CrowdStrike2023","Exploit public-facing applications","Initial access",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Exploit public-facing applications","",TRUE,TRUE,,,1,
+683,"Report","CrowdStrike2023","External remote services","Initial access",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","External remote services","",,,,,,
+684,"Report","CrowdStrike2023","Valid accoutns, local accounts","Initial access",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Misuse of (superuser) privileges","",TRUE,TRUE,,,1,
+685,"Report","CrowdStrike2023","Container administration command","Execution",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Container administration command","",,,,,,
+686,"Report","CrowdStrike2023","Deploy container","Execution",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Deployment of rogue or insecure resources","",TRUE,TRUE,,,1,
+687,"Report","CrowdStrike2023","External remote services","Persistance",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","External remote services","",,,,,,
+688,"Report","CrowdStrike2023","Valid accoutns, local accounts","Persistance",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Misuse of (superuser) privileges","",TRUE,TRUE,,,1,
+689,"Report","CrowdStrike2023","Escape to host","Privilege escalation",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Escape to host","",,,,,,
+690,"Report","CrowdStrike2023","Exploitation for privilege escalation","Privilege escalation",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Privilege escalation","",TRUE,TRUE,,,1,
+691,"Report","CrowdStrike2023","Valid accoutns, local accounts","Privilege escalation",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Misuse of (superuser) privileges","",TRUE,TRUE,,,1,
+692,"Report","CrowdStrike2023","Build image on host","Defense evasion",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Build image on host","",TRUE,TRUE,,,1,
+693,"Report","CrowdStrike2023","Deploy container","Defense evasion",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Deployment of rogue or insecure resources","",TRUE,TRUE,,,1,
+694,"Report","CrowdStrike2023","Impair defenses: Disable or modify tools","Defense evasion",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Impair defenses/Deactivating security products","",TRUE,TRUE,,,1,
+695,"Report","CrowdStrike2023","Masquerading: Match legitimate name or location","Defense evasion",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Masquerading: Match legitimate name or location","",TRUE,TRUE,,,1,
+696,"Report","CrowdStrike2023","Use alternate authentication material: Application access token","Defense evasion",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Use alternate authentication material: Application access token","",TRUE,TRUE,,,1,
+697,"Report","CrowdStrike2023","Valid accoutns, local accounts","Defense evasion",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Misuse of (superuser) privileges","",TRUE,TRUE,,,1,
+698,"Report","CrowdStrike2023","Steal application access token","Credential access",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Steal application access token","",TRUE,TRUE,,,1,
+699,"Report","CrowdStrike2023","Unsecured credentials: Credentials in files","Credential access",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Recover sensitive information, e.g. Files containing credentials and private keys","",TRUE,TRUE,,,1,
+700,"Report","CrowdStrike2023","Container and resources discovery","Discovery",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Container and resources discovery","",TRUE,TRUE,,,1,
+701,"Report","CrowdStrike2023","Network service discovery","Discovery",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Network service discovery","",TRUE,TRUE,,,1,
+702,"Report","CrowdStrike2023","Use alternate authentication material: Application access token","Lateral movement",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Use alternate authentication material: Application access token","",TRUE,TRUE,,,1,
+703,"Report","CrowdStrike2023","Resource hijacking","Impact",,,,,,,,,"Container",,"TTPs involving containers",,"P 14","Resource hijacking","",TRUE,TRUE,,,1,
+704,"Report","CrowdStrike2023","Credential harvesting",,,,,,,,,,,,,,"P 16","Credential harvesting","",,,,,,
+705,"Report","CrowdStrike2023","Lateral movement",,,,,,,,,,,,,,"P 18","Lateral movement","",TRUE,TRUE,,,1,
+706,"Report","SentinelOne2024","Data breaches and theft of intelectual property",,TRUE,,,"Risk",,,,,,1,"Cloud Security Risks and Threat","Survey","P 7","Data breach; Data theft","TRUE",,TRUE,,,,2
+707,"Report","SentinelOne2024","Malware and fileless attacks",,TRUE,TRUE,,"Risk",,,,,,2,"Cloud Security Risks and Threat","Survey","P 7","(Cloud-related) malware injection attack","",TRUE,TRUE,,,1,
+708,"Report","SentinelOne2024","Unauthorized access",,TRUE,,,"Risk",,,,,,3,"Cloud Security Risks and Threat","Survey","P 7","Third-party access / Unauthorized access to data and privileged information","",TRUE,TRUE,,,1,
+709,"Report","SentinelOne2024","Violations of data privacy / confidentiality regulations",,TRUE,,,"Risk",,,,,,4,"Cloud Security Risks and Threat","Survey","P 7","(Violations of) data privacy / confidentiality regulations","TRUE",,,,,,1
+710,"Report","SentinelOne2024","Account hijacking",,TRUE,,,"Risk",,,,,,5,"Cloud Security Risks and Threat","Survey","P 7","Account hijacking / compromised accounts","",TRUE,TRUE,,,1,
+711,"Report","SentinelOne2024","Denial of services (DoS) attacks",,TRUE,,,"Risk",,,,,,6,"Cloud Security Risks and Threat","Survey","P 7","DoS/DDoS attack","",TRUE,TRUE,,,1,
+712,"Report","SentinelOne2024","Accidental exposure of credentials",,TRUE,,,"Risk",,,,,,7,"Cloud Security Risks and Threat","Survey","P 7","Accidental exposure of credentials","",TRUE,,,,1,
+713,"Report","SentinelOne2024","Insecure APIs",,TRUE,,,"Risk",,,,,,8,"Cloud Security Risks and Threat","Survey","P 7","Insecure interfaces and APIs","",TRUE,,TRUE,,1,
+714,"Report","SentinelOne2024","Data leakage by insiders",,TRUE,,,"Risk",,,,,,9,"Cloud Security Risks and Threat","Survey","P 7","Data leakage/disclosure","TRUE",,TRUE,,,,1
+715,"Report","SentinelOne2024","Malicious insiders",,TRUE,,,"Risk",,,,,,10,"Cloud Security Risks and Threat","Survey","P 7","Malicious Insider attack","",TRUE,TRUE,,,1,
+716,"Report","SentinelOne2024","Cryptomining and other cooption of cloud resources",,TRUE,,,"Risk",,,,,,11,"Cloud Security Risks and Threat","Survey","P 7","Cryptomining and other cooption of cloud resources","",TRUE,,,TRUE,,
+717,"Report","SentinelOne2024","Cloud asset discovery",,,,,"Concern",,,,,,,,,"P 4","Cloud asset discovery","",TRUE,TRUE,,,1,
+718,"Report","SentinelOne2024","Configuration security",,,,,"Concern",,,,,,,,,"P 4","Configuration security","TRUE",,,,,,1
+719,"Report","SentinelOne2024","Ransomware attack",,,TRUE,,"Concern",,,,,,,,,"P 7","Ransomware","",TRUE,TRUE,,,1,
+720,"Report","SentinelOne2024","External threats",,TRUE,,,,,,,,,,,,"P 7","Attacks from external entities / outsider attacks","",TRUE,TRUE,,,1,
+,,,,,,,,,,,,,,,,,,,,,,,,384,222

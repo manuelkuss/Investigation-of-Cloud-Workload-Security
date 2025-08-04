@@ -1,0 +1,94 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- none
+
+pool:
+  name: Test
+  demands:
+  - agent.name -equals vm-shdevagent02
+
+
+variables:
+  resourcegroup: 'rg-tfstate'
+  accountname: 'statomictest2'
+  containername: 'terraform2'
+  key: 'terraform.tfstate'
+  function_app_name: 'arttest7cafd9-f-app'
+
+stages:
+  - stage: tfvalidate
+    jobs:
+      - job: validate
+        continueOnError: false
+        steps:
+          - task: ms-devlabs.custom-terraform-tasks.custom-terraform-installer-task.TerraformInstaller@1
+            displayName: install
+            inputs:
+              terraformVersion: 'latest'
+          - task: TerraformTaskV4@4
+            displayName: init
+            inputs:
+              provider: 'azurerm'
+              command: 'init'
+              workingDirectory: '$(System.DefaultWorkingDirectory)/Terraform'
+              backendServiceArm: 'TestTenantName'
+              backendAzureRmResourceGroupName: '$(resourcegroup)'
+              backendAzureRmStorageAccountName: '$(accountname)'
+              backendAzureRmContainerName: '$(containername)'
+              backendAzureRmKey: '$(key)'
+          - task: TerraformTaskV4@4
+            displayName: validate
+            inputs:
+              provider: 'azurerm'
+              command: 'validate'
+  - stage: tfdeploy
+    condition: succeeded('tfvalidate')
+    dependsOn: tfvalidate
+    jobs:
+      - job: apply
+        steps:
+          - script: 
+            displayName: ""
+          - task: ms-devlabs.custom-terraform-tasks.custom-terraform-installer-task.TerraformInstaller@1
+            displayName: install
+            inputs:
+              terraformVersion: 'latest'
+          - task: TerraformTaskV4@4
+            displayName: init
+            inputs:
+              provider: 'azurerm'
+              command: 'init'
+              backendServiceArm: 'TestTenantName'
+              backendAzureRmResourceGroupName: '$(resourcegroup)'
+              backendAzureRmStorageAccountName: '$(accountname)'
+              backendAzureRmContainerName: '$(containername)'
+              backendAzureRmKey: '$(key)'
+              workingDirectory: '$(System.DefaultWorkingDirectory)/Terraform'
+          - task: TerraformTaskV4@4
+            displayName: plan
+            inputs:
+              provider: 'azurerm'
+              command: 'plan'
+              environmentServiceNameAzureRM: 'TestTenantName'
+              workingDirectory: '$(System.DefaultWorkingDirectory)/Terraform'
+              commandOptions: '-var="files_for_pipeline_path=$(System.DefaultWorkingDirectory)/Terraform/files_for_pipeline/" ' # no -auto-approve
+          - task: TerraformTaskV4@4
+            displayName: apply
+            inputs:
+              provider: 'azurerm'
+              command: 'apply'
+              environmentServiceNameAzureRM: 'TestTenantName'
+              workingDirectory: '$(System.DefaultWorkingDirectory)/Terraform'
+              commandOptions: '-var="files_for_pipeline_path=$(System.DefaultWorkingDirectory)/Terraform/files_for_pipeline/" -auto-approve'
+          - task: AzureFunctionApp@2
+            displayName: upload function code
+            inputs:
+              connectedServiceNameARM: 'TestTenantName'
+              appType: functionAppLinux # default is functionApp
+              appName: '$(function_app_name)'
+              package: $(System.DefaultWorkingDirectory)/Terraform/files_for_pipeline/function_app_code.zip
+              deploymentMethod: zipDeploy

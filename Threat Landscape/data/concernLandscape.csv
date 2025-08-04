@@ -1,0 +1,86 @@
+"Counter: Marinescu2023","Counter: Bharti2024","Counter: Amalarethinam2024","Counter: Surianarayanan2023","Counter: Humayun2022","Counter: Wali2023","Counter: CSA2024","Counter: PaloAlto2024","Counter: CrowdStrike2024","Counter: SentinelOne2024","Object","Main category of concern","C: Regulatory & Legal Compliance","C: Data Privacy and Ownership","C: System & Operational Failures","C: Resource & Service Management","C: Accountability & Control","C5: Cloud as new technology, and complex nature of cloud","C: Data security","C: Data management and integrity","C: Infrastructure and network security","C: Software/Application security","Impact","Confidentiality","Integrity","Availability"
+1,,1,,,,,,,,"Auditing","Privacy and Compliance Risks",TRUE,,,,,,,,,,,,,
+2,,,,1,,11,1,,,"Non-compliance and fines","Privacy and Compliance Risks",TRUE,,,,,,,,,,TRUE,TRUE,TRUE,
+1,,,,,,,,,,"Regulation differences because the service may be unable to assure compliance in all jurisdictions an organization operates in","Privacy and Compliance Risks",TRUE,,,,,,,,,,,TRUE,,
+1,,,,,,,,,,"Verification of subscriber policies through provider controls","Privacy and Compliance Risks",TRUE,,,,,,,,,,,,TRUE,
+1,,,,,,,,,,"Auditing of data-integrity protection","Privacy and Compliance Risks",TRUE,,,,,,,,,,,,TRUE,
+1,,,,,,,,,,"Copyright","Privacy and Compliance Risks",TRUE,,,,,,,,,,,TRUE,,
+1,,,,,,,,,,"Certification/accreditation requirements for a given cloud service","Privacy and Compliance Risks",TRUE,,,,,,,,,,,TRUE,TRUE,
+1,,,1,,,,,,,"Legal framework","Privacy and Compliance Risks",TRUE,,,,,,,,,,,TRUE,,
+1,,,,,,,,,,"Liability","Privacy and Compliance Risks",TRUE,,,,,,,,,,,TRUE,,
+,,,,,,,,,1,"(Violations of) data privacy / confidentiality regulations","Privacy and Compliance Risks",,TRUE,,,,,,,,,,TRUE,,
+1,,,,,,,,,,"Potential unauthorized secondary use","Privacy and Compliance Risks",,TRUE,,,,,,,,,,TRUE,,
+1,,,,,,,,,,"Data proliferation","Privacy and Compliance Risks",,TRUE,,,,,,,,,,TRUE,,
+5,1,,2,,,,,,,"Data location: Consumers are unaware where the data is actually stored","Privacy and Compliance Risks",,TRUE,,,,,,,,,,TRUE,,
+1,,,,,,,,,,"Privacy enforcement","Privacy and Compliance Risks",,TRUE,,,,,,,,,,TRUE,,
+2,,,1,,,,,,,"Loss of control and loss of ownership of data","Privacy and Compliance Risks",,TRUE,,,TRUE,,,,,,TRUE,TRUE,TRUE,
+2,,,,,,,,,,"Threats related to third-party data control","Privacy and Compliance Risks",,TRUE,,,TRUE,,,,,,,TRUE,TRUE,
+1,,,,,,,,,,"User behavior monitoring","Privacy and Compliance Risks",,TRUE,,,TRUE,,,,,,,TRUE,,
+3,,,,,,,,,,"Data ownership ","Privacy and Compliance Risks",,TRUE,,,TRUE,,,,,,,TRUE,TRUE,
+,,,2,,,,,,,"Data secrecy","Privacy and Compliance Risks",,TRUE,,,TRUE,,,,,,,TRUE,,
+1,,,,,,,,,,"Dynamic provisioning","Operational and Process risks",,TRUE,TRUE,,,,,,,,,,,TRUE
+,1,,,,,,,,,"Impact of customer penetration testing on other users ","Operational and Process risks",,,TRUE,,,,,,,,TRUE,,,TRUE
+,1,,,,,,,,,"Impact of infrastructure modifications","Operational and Process risks",,,TRUE,,,,,,,,TRUE,,1,TRUE
+1,,,,,,,,,,"Operational failures","Operational and Process risks",,,TRUE,,,,,,,,TRUE,,,TRUE
+,,,,,,4,,,,"System performance","Operational and Process risks",,,TRUE,,,,,,,,TRUE,,,TRUE
+1,1,,1,,,6,,,,"Availability and continuity risks","Operational and Process risks",,,TRUE,,,,TRUE,TRUE,,,TRUE,,,TRUE
+,,,,,,5,,,,"Business disruption","Operational and Process risks",,,TRUE,,,,,,,,TRUE,,,TRUE
+,,,,,,3,,,,"Feature delay","Operational and Process risks",,,TRUE,,,,,,,,TRUE,,,TRUE
+,,,,,,7,,,,"Lost revenue","Operational and Process risks",,,TRUE,,,,,,,,TRUE,,,
+1,,,,1,,,,,,"Managing costs","Operational and Process risks",,,,TRUE,,,,,,,TRUE,,,
+,,,1,1,,,,,,"SLA issues","Operational and Process risks",,,,TRUE,,,,,,,TRUE,,,TRUE
+1,,,,,,,,,,"Cloud resource management","Operational and Process risks",,,,TRUE,,,,,,,,,,
+1,,,,,,,,,,"Dependence on fast internet connections","Operational and Process risks",,,,TRUE,,,,,,,,,,TRUE
+1,,,,,,,,,,"Cloud provider may subcontract some resources from a third party","Operational and Process risks",,,,TRUE,,,,,TRUE,,,TRUE,TRUE,
+2,,,1,,,,,,,"Lack/loss of control","Operational and Process risks",,,,,TRUE,,,,,,,TRUE,TRUE,
+1,,,,,,,,,,"Inadequate diligence","Operational and Process risks",,,,,TRUE,,,TRUE,,,,,TRUE,
+,,,,,,1,,,,"Limited cloud visibility/observability","Operational and Process risks",,,,,TRUE,,,,,,,,TRUE,
+2,,,,,,,,,,"Insufficient/missing accounting","Operational and Process risks",,,,,TRUE,,,,,,TRUE,,TRUE,
+,,,1,1,,,,,,"Lack of trust","Operational and Process risks",,,,,TRUE,,,,,,,TRUE,,
+1,,,1,,,,,,,"Lack of visibility into CSPs operations (security, environment management)","Operational and Process risks",,,,,TRUE,,,,,,,,,
+1,,,,,,,,,,"Lack of standardization","Cloud technology concern",,,,,,TRUE,,,,,,,,
+1,,,,,,,,,,"Inadequate infrastructure design and planning","Cloud technology concern",,,,,,TRUE,,TRUE,,,,,TRUE,TRUE
+1,,,,,,,,,,"Loss of devices that are connected to the cloud (e.g. mobile device)","Cloud technology concern",,,,,,TRUE,,,,,TRUE,TRUE,,
+1,,,,,,,,,,"Phase transition phenomena and other effects specific to complex systems","Cloud technology concern",,,,,,TRUE,,,,,TRUE,,,TRUE
+,,,1,,,,,,,"Incomplete data-deletion","Cloud technology concern",,,,,,TRUE,,TRUE,,,,TRUE,,
+1,,,,,,,,,,"Commercial operating systems do not support multilayered security","Cloud technology concern",,,,,,TRUE,,,TRUE,,,,,
+1,,,,1,,,,,,"Lack of expertise","Cloud technology concern",,,,,,TRUE,,,,,,,,
+1,,,,,,,,,,"The lack of skilled staff to manage the security of cloud applications used by an organization","Cloud technology concern",,,,,,TRUE,,,,,,,,
+,,,,,,9,,,,"Company reputation","Cloud technology concern",,,,,,TRUE,,,,,TRUE,,,
+,,,,,,6,,,,"Customer reputation","Cloud technology concern",,,,,,TRUE,,,,,TRUE,,,
+1,,,,1,,,,,,"Multi-tenant environment / data isolation","Cloud technology concern",,,,,,TRUE,,,,,,TRUE,TRUE,TRUE
+,,,,1,,,,,,"Heterogeneous devices","Cloud technology concern",,,,,,TRUE,,,,,,,TRUE,
+,,,,,,,,,1,"Configuration security","Cloud technology concern",,,,,,TRUE,,,,,,,,
+3,2,,1,,,8,,,,"(Permanent) Data loss","Data security, -management and -integrity",,,,,,,TRUE,TRUE,,,TRUE,,,TRUE
+1,,,,,,,,,,"Failures of the consistency management","Data security, -management and -integrity",,,,,,,TRUE,TRUE,,,,,TRUE,TRUE
+,,,1,,,,,,,"Recovery-related issues","Data security, -management and -integrity",,,,,,,TRUE,TRUE,,,,TRUE,,TRUE
+,,,1,,,,,,,"Data integrity","Data security, -management and -integrity",,,,,,,TRUE,TRUE,,,,,TRUE,
+1,,,,,,,,,,"Data integration","Data security, -management and -integrity",,,,,,,TRUE,TRUE,,,,,TRUE,
+1,,,,,,,,,,"Data encryption","Data security, -management and -integrity",,,,,,,TRUE,TRUE,,,,TRUE,,
+,,,1,,,,,,,"Data sharing","Data security, -management and -integrity",,,,,,,TRUE,TRUE,,,,TRUE,,
+,,,1,,,,,,,"Data recovery","Data security, -management and -integrity",,,,,,,TRUE,TRUE,,,,TRUE,,TRUE
+,,,1,,,,,,,"Lack of data management","Data security, -management and -integrity",,,,,,,TRUE,TRUE,,,,,TRUE,
+1,,,,,,,,,,"Ensuring consistency among the replicas ","Data security, -management and -integrity",,,,,,,,TRUE,,,,,TRUE,
+1,,,,,,,,,,"Carry out timely backups","Data security, -management and -integrity",,,,,,,,TRUE,,,,,,TRUE
+1,,,,,,,,,,"Data remanence after de-provisioning","Data security, -management and -integrity",,TRUE,,,,,TRUE,TRUE,,,,TRUE,,
+1,,,,,,,,,,"Data distortion","Data security, -management and -integrity",,,,,,,TRUE,TRUE,,,TRUE,,TRUE,
+9,2,,3,1,3,4,2,,3,"Data Breaches and Loss","Data security, -management and -integrity",,,,,,,TRUE,TRUE,,,TRUE,TRUE,,TRUE
+1,,,,,,,,,,"The inability to prevent the misuse of data or theft by insiders","Data security, -management and -integrity",,,,,,,TRUE,TRUE,,,,TRUE,,
+1,,,,,,,,,,"The inability to control and keep track of data in transit to and from cloud applications","Data security, -management and -integrity",,TRUE,,,,,TRUE,TRUE,,,,TRUE,,
+1,,,,,,,,,,"Side channeling","Infrastructure and network security",,,,,,,,,TRUE,,,TRUE,,
+1,,,,,,,,,,"Network breaches","Infrastructure and network security",,TRUE,,,,,,,TRUE,,TRUE,TRUE,,
+,1,,,,,,,,,"DNS service","Infrastructure and network security",,,,,,,,,TRUE,,,TRUE,,TRUE
+1,,,,,,,,,,"Loss of control in execution environment","Infrastructure and network security",,,,,TRUE,,,,TRUE,,,TRUE,TRUE,
+2,,,,,,,,,,"Protect the infrastructure used to connect to the cloud","Infrastructure and network security",,,,,,,,,TRUE,,,,,TRUE
+,,,1,,,,,,,"Heterogeneity in hardware and software cause flaws as the security setting for different resources would be different","Infrastructure and network security",,,,,,,,,TRUE,,,,TRUE,
+,,,,,,,,2,,"Insecure CSP default settings","Infrastructure and network security",,,,,,TRUE,,,TRUE,,,TRUE,TRUE,
+,1,,,,,,,,,"Network bandwidth","Infrastructure and network security",,,,,,,,,TRUE,,,,,TRUE
+1,,,1,,,,,,,"(Data) Availability","Infrastructure and network security",,,,,,,,,TRUE,,,,,TRUE
+,,,,,,,1,,,"Unforseen vulnerabilities and exploits introduced by AI-generated code","Software/Application security",,,,,,,,,,TRUE,,,,
+,,,,,,1,1,,,"Insecure software development","Software/Application security",,,,,,,,,,TRUE,,TRUE,TRUE,
+,,,,,,1,,,,"Insecure Thrid-Party Resources","Software/Application security",,,,,,,,,,TRUE,,TRUE,TRUE,
+,,,1,,,,,,,"Maintaining consistent security across multiple platforms or tools","Software/Application security",,,,,,,,,,TRUE,,,TRUE,
+1,,,,,,,,,,"Forced version updates","Software/Application security",,,,,,,,,,TRUE,,,TRUE,TRUE
+,,,,,,,1,,,"API-associated risks","Software/Application security",,,,,,,,,,TRUE,,TRUE,TRUE,
+5,,5,1,2,2,2,2,,,"Deleted general security objects",,,,,,,,,,,,,,,
+1,1,,1,2,,,,,,"Deleted other objects",,,,,,,,,,,,,,,

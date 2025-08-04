@@ -1,0 +1,55 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- none
+
+pool:
+  name: Test
+  demands:
+  - agent.name -equals vm-shdevagent02
+
+variables:
+  resourcegroup: 'rg-tfstate'
+  accountname: 'statomictest2'
+  containername: 'terraform2'
+  key: 'terraform.tfstate'
+
+stages:
+  - stage: destroy
+    jobs:
+      - job: destroy
+        steps:
+          - task: ms-devlabs.custom-terraform-tasks.custom-terraform-installer-task.TerraformInstaller@1
+            displayName: install
+            inputs:
+              terraformVersion: 'latest'
+          - task: TerraformTaskV4@4
+            displayName: init
+            inputs:
+              provider: 'azurerm'
+              command: 'init'
+              workingDirectory: '$(System.DefaultWorkingDirectory)/Terraform'
+              backendServiceArm: 'TestTenantName'
+              backendAzureRmResourceGroupName: '$(resourcegroup)'
+              backendAzureRmStorageAccountName: '$(accountname)'
+              backendAzureRmContainerName: '$(containername)'
+              backendAzureRmKey: '$(key)'
+          - task: TerraformTaskV4@4
+            displayName: plan
+            inputs:
+              provider: 'azurerm'
+              command: 'plan'
+              workingDirectory: '$(System.DefaultWorkingDirectory)/Terraform'
+              environmentServiceNameAzureRM: 'TestTenantName'
+              commandOptions: '-var="files_for_pipeline_path=$(System.DefaultWorkingDirectory)/Terraform/files_for_pipeline/" ' # no -auto-approve
+          - task: TerraformTaskV4@4
+            displayName: destroy
+            inputs:
+              provider: 'azurerm'
+              command: 'destroy'
+              workingDirectory: '$(System.DefaultWorkingDirectory)/Terraform'
+              environmentServiceNameAzureRM: 'TestTenantName'
+              commandOptions: '-var="files_for_pipeline_path=$(System.DefaultWorkingDirectory)/Terraform/files_for_pipeline/" -auto-approve'

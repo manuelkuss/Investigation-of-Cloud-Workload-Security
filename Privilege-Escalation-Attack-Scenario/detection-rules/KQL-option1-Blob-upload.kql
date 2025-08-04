@@ -1,0 +1,36 @@
+let storageAccountsToWatch = dynamic(["arttest7cafd9stacc2", "arttest7cafd9fappmaaee3"]);
+let storageBlobLogEvents = StorageBlobLogs
+    | where OperationName == "PutBlob"
+    | where _ResourceId has_any(storageAccountsToWatch)
+    | extend StorageBlobLogs_JoinAttrResourceId = _ResourceId
+    | extend StorageBlobLogs_CallerIpAddress = tostring(split(CallerIpAddress, ":", 0)[0])
+    | extend StorageBlobLogs_TimeGenerated = TimeGenerated
+    | project
+        StorageBlobLogs_TimeGenerated,
+        StorageBlobLogs_JoinAttrResourceId,
+        StorageBlobLogs_CallerIpAddress;
+let azureActivityEvents = AzureActivity
+    | where OperationNameValue == "MICROSOFT.STORAGE/STORAGEACCOUNTS/LISTKEYS/ACTION"
+    | where ActivityStatusValue == "Success"
+    | extend Properties_json = parse_json(Properties)
+    | extend AzureActivity_JoinAttrResourceId = tostring(Properties_json.entity)
+    | where AzureActivity_JoinAttrResourceId has_any (storageAccountsToWatch)
+    | extend AzureActivity_CallerIpAddress = CallerIpAddress
+    | extend AzureActivity_TimeGenerated = TimeGenerated
+    | extend Authorization_json = parse_json(Authorization)
+    | extend Authorization_evidence_json = parse_json(Authorization_json.evidence)
+    | extend Authorization_role = Authorization_evidence_json.role
+    | project
+        AzureActivity_TimeGenerated,
+        AzureActivity_JoinAttrResourceId,
+        AzureActivity_CallerIpAddress,
+        Caller,
+        ActivitySubstatusValue,
+        Authorization_role;
+storageBlobLogEvents
+| join kind=inner (azureActivityEvents) on $left.StorageBlobLogs_CallerIpAddress == $right.AzureActivity_CallerIpAddress
+| where StorageBlobLogs_JoinAttrResourceId has AzureActivity_JoinAttrResourceId                                             // Events on the same resource (storage account)
+| where StorageBlobLogs_TimeGenerated > AzureActivity_TimeGenerated                                                         // AzureActivity_TimeGenerated must be before StorageBlobLogs_TimeGenerated
+| where StorageBlobLogs_TimeGenerated < datetime_add('minute', 1, AzureActivity_TimeGenerated)                              // Max 1 minutes difference between events
+| where Authorization_role !in~ ("Contributor", "Owner")
+| summarize AzureActivity_TimeGenerated = arg_max(AzureActivity_TimeGenerated, *) by StorageBlobLogs_TimeGenerated          // Take most recent AzureActivity event for each StorageBlobLogs event in case multiple are found
