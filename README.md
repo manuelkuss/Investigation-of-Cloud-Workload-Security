@@ -7,20 +7,9 @@ This repository contains data related to the master's thesis "Investigation of C
 
 **Abstract:** 
 
-Cloud computing is a promising technology that offers numerous benefits, but it also alters the risk landscape in terms of security and privacy. This thesis investigated the security of cloud workloads in the context of the adversary emulation tool Atomic Red Team (ART). In particular, the threat detection capabilities of Microsoft Azure were evaluated using a risk-based security testing approach. Executing this testing approach on a cloud infrastructure that follows best practices provided insights into the threat detection environment of Azure and enabled the investigation of optimization possibilities in the threat detection setup. Furthermore, the ability of ART to cover the top three threats was evaluated, and a methodology was developed to extend the collection with new micro-attacks. The scientific method employed follows the design science method presented by Wieringa et al. [1]. Furthermore, the methodology from Kitchenham [2] was employed to conduct Systematic Literature Reviews. This thesis presents two methodologies: one for performing risk-based security testing to evaluate the threat detection capabilities of a Cloud Service Provider (CSP), and another for identifying suitable attack scenarios for the realization of new micro-attacks. On the other hand, technical insights into the security of cloud workloads were presented, including the threat landscape, a threat ranking, an evaluation of ART, the threat detection rate in a configured threat detection setup in Azure, and the effect of adding new micro-attacks and detection rules on the coverage metrics. The thesis concluded that ART is not yet capable of providing attacks for comprehensive security testing. Four new micro-attacks were developed to extend the set of attacks within ART and improve the test coverage rate. Overall, the thesis has contributed to the limited literature on cloud security testing and the evaluation of cloud Intrusion Detection Systems.
+Cloud computing is a promising technology that offers numerous benefits, but it also alters the risk landscape in terms of security and privacy. This study investigates the security of cloud workloads using the adversary emulation tool Atomic Red Team (ART). Specifically, the threat detection capabilities of Microsoft Azure are evaluated using a risk-based security testing approach. By applying this methodology to a cloud infrastructure that follows best practices, the research provides insights into Azure’s threat detection environment and identifies optimization possibilities. The thesis assesses the suitability of ART for addressing the top three threats and explores how new micro-attacks can be developed to enhance ART’s capabilities in this regard.
 
-**Bibliography:**
-
-[1] R. J. Wieringa, Design Science Methodology for Information Systems and Software
-Engineering, 1st ed. Springer Berlin, Heidelberg, Nov. 2014. doi: 10.1007/978-3-
-662-43839-8 .
-
-[2] B. Kitchenham, “Guidelines for performing systematic literature reviews in software
-engineering,” Software Engineering Group, School of Computer Science and
-Mathematics, Keele University, and Department of Computer Science, University
-of Durham, UK, EBSE Technical Report EBSE-2007-01, Jul. 9, 2007. [Online].
-Available: https://www.researchgate.net/publication/302924724_Guidelines_for_
-performing_Systematic_Literature_Reviews_in_Software_Engineering
+The thesis contributes to filling a gap in the literature on cloud security testing and the evaluation of cloud Intrusion Detection Systems (IDSs). Its contribution lies in both the development of methodologies and its technical findings. One methodology serves for performing risk-based security testing, another for identifying suitable attack scenarios for the realization of new micro-attacks. The technical results regarding the security of cloud workloads include: the threat landscape, a threat ranking, an evaluation of ART, the threat detection rate in a best-practices threat detection setup in Azure, and the effect of adding new micro-attacks on the coverage metrics. The thesis concludes that ART is not yet capable of providing a sufficient number of attack scenarios for comprehensive security testing. To address this limitation, four new micro-attacks have been developed to extend the set of attacks within ART and to enhance the test coverage rate.
 
 ---
 
